@@ -1,0 +1,2574 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ksures200/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/Users/ksures200/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData body-parser
+20 silly mapToRegistry name body-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'body-parser',
+23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+25 silly fetchNamedPackageData connect-mongo
+26 silly mapToRegistry name connect-mongo
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'connect-mongo',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'connect-mongo',
+29 silly mapToRegistry   name: 'connect-mongo',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/connect-mongo
+31 silly fetchNamedPackageData connect-mongodb-session
+32 silly mapToRegistry name connect-mongodb-session
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'connect-mongodb-session',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'connect-mongodb-session',
+35 silly mapToRegistry   name: 'connect-mongodb-session',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/connect-mongodb-session
+37 silly fetchNamedPackageData cookie-parser
+38 silly mapToRegistry name cookie-parser
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'cookie-parser',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'cookie-parser',
+41 silly mapToRegistry   name: 'cookie-parser',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+43 silly fetchNamedPackageData core-js
+44 silly mapToRegistry name core-js
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'core-js',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'core-js',
+47 silly mapToRegistry   name: 'core-js',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/core-js
+49 silly fetchNamedPackageData cors
+50 silly mapToRegistry name cors
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'cors',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'cors',
+53 silly mapToRegistry   name: 'cors',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/cors
+55 silly fetchNamedPackageData express
+56 silly mapToRegistry name express
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'express',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'express',
+59 silly mapToRegistry   name: 'express',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/express
+61 silly fetchNamedPackageData express-jwt
+62 silly mapToRegistry name express-jwt
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'express-jwt',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'express-jwt',
+65 silly mapToRegistry   name: 'express-jwt',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/express-jwt
+67 silly fetchNamedPackageData express-session
+68 silly mapToRegistry name express-session
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'express-session',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'express-session',
+71 silly mapToRegistry   name: 'express-session',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/express-session
+73 silly fetchNamedPackageData hammerjs
+74 silly mapToRegistry name hammerjs
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'hammerjs',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'hammerjs',
+77 silly mapToRegistry   name: 'hammerjs',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/hammerjs
+79 silly fetchNamedPackageData jsonwebtoken
+80 silly mapToRegistry name jsonwebtoken
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'jsonwebtoken',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'jsonwebtoken',
+83 silly mapToRegistry   name: 'jsonwebtoken',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+85 silly fetchNamedPackageData lodash
+86 silly mapToRegistry name lodash
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'lodash',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'lodash',
+89 silly mapToRegistry   name: 'lodash',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/lodash
+91 silly fetchNamedPackageData moment
+92 silly mapToRegistry name moment
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'moment',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'moment',
+95 silly mapToRegistry   name: 'moment',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/moment
+97 silly fetchNamedPackageData moment-timezone
+98 silly mapToRegistry name moment-timezone
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'moment-timezone',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'moment-timezone',
+101 silly mapToRegistry   name: 'moment-timezone',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+103 silly fetchNamedPackageData mongodb
+104 silly mapToRegistry name mongodb
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'mongodb',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'mongodb',
+107 silly mapToRegistry   name: 'mongodb',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+109 silly fetchNamedPackageData mongoose
+110 silly mapToRegistry name mongoose
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'mongoose',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'mongoose',
+113 silly mapToRegistry   name: 'mongoose',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+115 silly fetchNamedPackageData node-schedule
+116 silly mapToRegistry name node-schedule
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'node-schedule',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'node-schedule',
+119 silly mapToRegistry   name: 'node-schedule',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/node-schedule
+121 silly fetchNamedPackageData passport
+122 silly mapToRegistry name passport
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'passport',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'passport',
+125 silly mapToRegistry   name: 'passport',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/passport
+127 silly fetchNamedPackageData passport-azure-ad
+128 silly mapToRegistry name passport-azure-ad
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'passport-azure-ad',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'passport-azure-ad',
+131 silly mapToRegistry   name: 'passport-azure-ad',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/passport-azure-ad
+133 silly fetchNamedPackageData passport-local
+134 silly mapToRegistry name passport-local
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'passport-local',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   escapedName: 'passport-local',
+137 silly mapToRegistry   name: 'passport-local',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+139 silly fetchNamedPackageData rxjs
+140 silly mapToRegistry name rxjs
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'rxjs',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'rxjs',
+143 silly mapToRegistry   name: 'rxjs',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+145 silly fetchNamedPackageData uuid
+146 silly mapToRegistry name uuid
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'uuid',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'uuid',
+149 silly mapToRegistry   name: 'uuid',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/uuid
+151 silly fetchNamedPackageData zone.js
+152 silly mapToRegistry name zone.js
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'zone.js',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   escapedName: 'zone.js',
+155 silly mapToRegistry   name: 'zone.js',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+157 verbose request uri https://registry.npmjs.org/connect-mongodb-session
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 10:36:57 AM
+160 verbose request id 7d449c3b0d3b5270
+161 http request GET https://registry.npmjs.org/connect-mongodb-session
+162 verbose request uri https://registry.npmjs.org/express-jwt
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 10:36:57 AM
+165 http request GET https://registry.npmjs.org/express-jwt
+166 verbose request uri https://registry.npmjs.org/hammerjs
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 10:36:57 AM
+169 http request GET https://registry.npmjs.org/hammerjs
+170 verbose request uri https://registry.npmjs.org/node-schedule
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 10:36:57 AM
+173 http request GET https://registry.npmjs.org/node-schedule
+174 verbose request uri https://registry.npmjs.org/passport-azure-ad
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 10:36:57 AM
+177 http request GET https://registry.npmjs.org/passport-azure-ad
+178 verbose request uri https://registry.npmjs.org/rxjs
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 10:36:57 AM
+181 http request GET https://registry.npmjs.org/rxjs
+182 verbose request uri https://registry.npmjs.org/zone.js
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 10:36:57 AM
+185 http request GET https://registry.npmjs.org/zone.js
+186 verbose request uri https://registry.npmjs.org/body-parser
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 10:36:57 AM
+189 verbose etag W/"e5cb93ba6e2116ce7a8d23e96b9eaabf"
+190 verbose lastModified Wed, 07 Nov 2018 22:53:34 GMT
+191 http request GET https://registry.npmjs.org/body-parser
+192 verbose request uri https://registry.npmjs.org/connect-mongo
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 10:36:57 AM
+195 verbose etag W/"03a509d4584000a3747262a1a3220aff"
+196 verbose lastModified Sat, 26 May 2018 20:44:12 GMT
+197 http request GET https://registry.npmjs.org/connect-mongo
+198 verbose request uri https://registry.npmjs.org/cookie-parser
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 10:36:57 AM
+201 verbose etag W/"87e21b2ea878ee14762dc2cda7b03a6e"
+202 verbose lastModified Thu, 02 Aug 2018 09:57:52 GMT
+203 http request GET https://registry.npmjs.org/cookie-parser
+204 verbose request uri https://registry.npmjs.org/cors
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 10:36:57 AM
+207 verbose etag W/"e856a51a499100244c31587700c2a049"
+208 verbose lastModified Sun, 04 Nov 2018 21:00:17 GMT
+209 http request GET https://registry.npmjs.org/cors
+210 verbose request uri https://registry.npmjs.org/core-js
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 10:36:57 AM
+213 verbose etag W/"bffbe1b4fab9bdfdb0afe633e667d3b5"
+214 verbose lastModified Thu, 07 Jun 2018 07:26:36 GMT
+215 http request GET https://registry.npmjs.org/core-js
+216 verbose request uri https://registry.npmjs.org/express
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 10:36:57 AM
+219 verbose etag W/"fe5376e45cc562b82071fcfe66f1a744"
+220 verbose lastModified Wed, 31 Oct 2018 23:01:08 GMT
+221 http request GET https://registry.npmjs.org/express
+222 verbose request uri https://registry.npmjs.org/express-session
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 10:36:57 AM
+225 verbose etag W/"0fcb131f41f4be3c0b48781fc80e16bb"
+226 verbose lastModified Fri, 03 Aug 2018 00:32:09 GMT
+227 http request GET https://registry.npmjs.org/express-session
+228 verbose request uri https://registry.npmjs.org/jsonwebtoken
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 10:36:57 AM
+231 verbose etag W/"47c0845aef63816917124bd4556556a7"
+232 verbose lastModified Thu, 08 Nov 2018 23:54:13 GMT
+233 http request GET https://registry.npmjs.org/jsonwebtoken
+234 verbose request uri https://registry.npmjs.org/moment-timezone
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 10:36:57 AM
+237 verbose etag W/"74f3a7892e66ddedf93309bff3040a25"
+238 verbose lastModified Mon, 29 Oct 2018 03:06:44 GMT
+239 http request GET https://registry.npmjs.org/moment-timezone
+240 verbose request uri https://registry.npmjs.org/moment
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 10:36:57 AM
+243 verbose etag W/"c0d1598a2592dc055373d7337e9f099c"
+244 verbose lastModified Wed, 31 Oct 2018 10:16:01 GMT
+245 http request GET https://registry.npmjs.org/moment
+246 verbose request uri https://registry.npmjs.org/passport
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 10:36:57 AM
+249 verbose etag W/"43d9101d543887e37d04f9d8326b5980"
+250 verbose lastModified Sun, 30 Sep 2018 17:03:32 GMT
+251 http request GET https://registry.npmjs.org/passport
+252 verbose request uri https://registry.npmjs.org/lodash
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 10:36:57 AM
+255 verbose etag W/"0aa87923a25f0d9a7c737b305424e389"
+256 verbose lastModified Mon, 22 Oct 2018 15:56:14 GMT
+257 http request GET https://registry.npmjs.org/lodash
+258 verbose request uri https://registry.npmjs.org/passport-local
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 10:36:57 AM
+261 verbose etag W/"748e45b8ddc409413df534ec8c4d4b4c"
+262 verbose lastModified Fri, 03 Aug 2018 00:34:28 GMT
+263 http request GET https://registry.npmjs.org/passport-local
+264 verbose request uri https://registry.npmjs.org/mongoose
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 10:36:57 AM
+267 verbose etag W/"5bcaa9c6bc2a925aa883cbf0c05d81da"
+268 verbose lastModified Tue, 02 Oct 2018 13:00:52 GMT
+269 http request GET https://registry.npmjs.org/mongoose
+270 verbose request uri https://registry.npmjs.org/uuid
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 10:36:57 AM
+273 verbose etag W/"e7df3d8b87595f6d61d21e40da4f8a35"
+274 verbose lastModified Thu, 01 Nov 2018 17:30:01 GMT
+275 http request GET https://registry.npmjs.org/uuid
+276 verbose request uri https://registry.npmjs.org/mongodb
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 10:36:57 AM
+279 verbose etag W/"9707581ba819e114d7e14b148e9b4e1d"
+280 verbose lastModified Sat, 15 Sep 2018 01:53:18 GMT
+281 http request GET https://registry.npmjs.org/mongodb
+282 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+283 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+284 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+285 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+286 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+287 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+288 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+289 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+290 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+291 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+292 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+293 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+294 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+295 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+296 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+297 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+298 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+299 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+300 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+301 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+302 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+303 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+304 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+305 info attempt registry request try #2 at 10:37:07 AM
+306 verbose etag W/"0aa87923a25f0d9a7c737b305424e389"
+307 verbose lastModified Mon, 22 Oct 2018 15:56:14 GMT
+308 http request GET https://registry.npmjs.org/lodash
+309 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+310 info attempt registry request try #2 at 10:37:07 AM
+311 verbose etag W/"9707581ba819e114d7e14b148e9b4e1d"
+312 verbose lastModified Sat, 15 Sep 2018 01:53:18 GMT
+313 http request GET https://registry.npmjs.org/mongodb
+314 info attempt registry request try #2 at 10:37:07 AM
+315 verbose etag W/"e5cb93ba6e2116ce7a8d23e96b9eaabf"
+316 verbose lastModified Wed, 07 Nov 2018 22:53:34 GMT
+317 http request GET https://registry.npmjs.org/body-parser
+318 info attempt registry request try #2 at 10:37:07 AM
+319 http request GET https://registry.npmjs.org/express-jwt
+320 info attempt registry request try #2 at 10:37:07 AM
+321 verbose etag W/"74f3a7892e66ddedf93309bff3040a25"
+322 verbose lastModified Mon, 29 Oct 2018 03:06:44 GMT
+323 http request GET https://registry.npmjs.org/moment-timezone
+324 info attempt registry request try #2 at 10:37:07 AM
+325 http request GET https://registry.npmjs.org/connect-mongodb-session
+326 info attempt registry request try #2 at 10:37:07 AM
+327 verbose etag W/"03a509d4584000a3747262a1a3220aff"
+328 verbose lastModified Sat, 26 May 2018 20:44:12 GMT
+329 http request GET https://registry.npmjs.org/connect-mongo
+330 info attempt registry request try #2 at 10:37:07 AM
+331 verbose etag W/"e7df3d8b87595f6d61d21e40da4f8a35"
+332 verbose lastModified Thu, 01 Nov 2018 17:30:01 GMT
+333 http request GET https://registry.npmjs.org/uuid
+334 info attempt registry request try #2 at 10:37:07 AM
+335 verbose etag W/"bffbe1b4fab9bdfdb0afe633e667d3b5"
+336 verbose lastModified Thu, 07 Jun 2018 07:26:36 GMT
+337 http request GET https://registry.npmjs.org/core-js
+338 info attempt registry request try #2 at 10:37:07 AM
+339 verbose etag W/"e856a51a499100244c31587700c2a049"
+340 verbose lastModified Sun, 04 Nov 2018 21:00:17 GMT
+341 http request GET https://registry.npmjs.org/cors
+342 info attempt registry request try #2 at 10:37:07 AM
+343 verbose etag W/"748e45b8ddc409413df534ec8c4d4b4c"
+344 verbose lastModified Fri, 03 Aug 2018 00:34:28 GMT
+345 http request GET https://registry.npmjs.org/passport-local
+346 info attempt registry request try #2 at 10:37:07 AM
+347 http request GET https://registry.npmjs.org/rxjs
+348 info attempt registry request try #2 at 10:37:07 AM
+349 verbose etag W/"5bcaa9c6bc2a925aa883cbf0c05d81da"
+350 verbose lastModified Tue, 02 Oct 2018 13:00:52 GMT
+351 http request GET https://registry.npmjs.org/mongoose
+352 info attempt registry request try #2 at 10:37:07 AM
+353 verbose etag W/"43d9101d543887e37d04f9d8326b5980"
+354 verbose lastModified Sun, 30 Sep 2018 17:03:32 GMT
+355 http request GET https://registry.npmjs.org/passport
+356 info attempt registry request try #2 at 10:37:07 AM
+357 http request GET https://registry.npmjs.org/zone.js
+358 info attempt registry request try #2 at 10:37:07 AM
+359 http request GET https://registry.npmjs.org/node-schedule
+360 info attempt registry request try #2 at 10:37:07 AM
+361 verbose etag W/"c0d1598a2592dc055373d7337e9f099c"
+362 verbose lastModified Wed, 31 Oct 2018 10:16:01 GMT
+363 http request GET https://registry.npmjs.org/moment
+364 info attempt registry request try #2 at 10:37:07 AM
+365 verbose etag W/"47c0845aef63816917124bd4556556a7"
+366 verbose lastModified Thu, 08 Nov 2018 23:54:13 GMT
+367 http request GET https://registry.npmjs.org/jsonwebtoken
+368 info attempt registry request try #2 at 10:37:07 AM
+369 http request GET https://registry.npmjs.org/hammerjs
+370 info attempt registry request try #2 at 10:37:07 AM
+371 http request GET https://registry.npmjs.org/passport-azure-ad
+372 info attempt registry request try #2 at 10:37:07 AM
+373 verbose etag W/"0fcb131f41f4be3c0b48781fc80e16bb"
+374 verbose lastModified Fri, 03 Aug 2018 00:32:09 GMT
+375 http request GET https://registry.npmjs.org/express-session
+376 info attempt registry request try #2 at 10:37:07 AM
+377 verbose etag W/"fe5376e45cc562b82071fcfe66f1a744"
+378 verbose lastModified Wed, 31 Oct 2018 23:01:08 GMT
+379 http request GET https://registry.npmjs.org/express
+380 info attempt registry request try #2 at 10:37:07 AM
+381 verbose etag W/"87e21b2ea878ee14762dc2cda7b03a6e"
+382 verbose lastModified Thu, 02 Aug 2018 09:57:52 GMT
+383 http request GET https://registry.npmjs.org/cookie-parser
+384 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+385 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+386 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+387 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+388 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+389 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+390 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+391 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+392 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+393 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+394 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+395 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+396 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+397 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+398 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+399 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+400 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+401 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+402 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+403 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+404 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+405 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+406 info attempt registry request try #3 at 10:38:07 AM
+407 verbose etag W/"0aa87923a25f0d9a7c737b305424e389"
+408 verbose lastModified Mon, 22 Oct 2018 15:56:14 GMT
+409 http request GET https://registry.npmjs.org/lodash
+410 silly get cb [ 304, undefined ]
+411 verbose etag https://registry.npmjs.org/lodash from cache
+412 verbose get saving lodash to /Users/ksures200/.npm/registry.npmjs.org/lodash/.cache.json
+413 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+414 silly resolveWithNewModule lodash@4.17.11 checking installable status
+415 silly cache add args [ 'lodash@^4.17.10', null ]
+416 verbose cache add spec lodash@^4.17.10
+417 silly cache add parsed spec Result {
+417 silly cache add   raw: 'lodash@^4.17.10',
+417 silly cache add   scope: null,
+417 silly cache add   escapedName: 'lodash',
+417 silly cache add   name: 'lodash',
+417 silly cache add   rawSpec: '^4.17.10',
+417 silly cache add   spec: '>=4.17.10 <5.0.0',
+417 silly cache add   type: 'range' }
+418 silly addNamed lodash@>=4.17.10 <5.0.0
+419 verbose addNamed ">=4.17.10 <5.0.0" is a valid semver range for lodash
+420 silly addNameRange { name: 'lodash', range: '>=4.17.10 <5.0.0', hasData: false }
+421 silly mapToRegistry name lodash
+422 silly mapToRegistry using default registry
+423 silly mapToRegistry registry https://registry.npmjs.org/
+424 silly mapToRegistry data Result {
+424 silly mapToRegistry   raw: 'lodash',
+424 silly mapToRegistry   scope: null,
+424 silly mapToRegistry   escapedName: 'lodash',
+424 silly mapToRegistry   name: 'lodash',
+424 silly mapToRegistry   rawSpec: '',
+424 silly mapToRegistry   spec: 'latest',
+424 silly mapToRegistry   type: 'tag' }
+425 silly mapToRegistry uri https://registry.npmjs.org/lodash
+426 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+427 verbose get https://registry.npmjs.org/lodash not expired, no request
+428 silly addNameRange number 2 { name: 'lodash', range: '>=4.17.10 <5.0.0', hasData: true }
+429 silly addNameRange versions [ 'lodash',
+429 silly addNameRange   [ '0.1.0',
+429 silly addNameRange     '0.2.0',
+429 silly addNameRange     '0.2.1',
+429 silly addNameRange     '0.2.2',
+429 silly addNameRange     '0.3.0',
+429 silly addNameRange     '0.3.1',
+429 silly addNameRange     '0.3.2',
+429 silly addNameRange     '0.4.0',
+429 silly addNameRange     '0.4.1',
+429 silly addNameRange     '0.4.2',
+429 silly addNameRange     '0.5.0-rc.1',
+429 silly addNameRange     '0.5.0',
+429 silly addNameRange     '0.5.1',
+429 silly addNameRange     '0.5.2',
+429 silly addNameRange     '0.6.0',
+429 silly addNameRange     '0.6.1',
+429 silly addNameRange     '0.7.0',
+429 silly addNameRange     '0.8.0',
+429 silly addNameRange     '0.8.1',
+429 silly addNameRange     '0.8.2',
+429 silly addNameRange     '0.9.0',
+429 silly addNameRange     '0.9.1',
+429 silly addNameRange     '0.9.2',
+429 silly addNameRange     '0.10.0',
+429 silly addNameRange     '1.0.0-rc.1',
+429 silly addNameRange     '1.0.0-rc.2',
+429 silly addNameRange     '1.0.0-rc.3',
+429 silly addNameRange     '1.0.0',
+429 silly addNameRange     '1.0.1',
+429 silly addNameRange     '1.1.0',
+429 silly addNameRange     '1.1.1',
+429 silly addNameRange     '1.2.0',
+429 silly addNameRange     '1.2.1',
+429 silly addNameRange     '1.3.0',
+429 silly addNameRange     '1.3.1',
+429 silly addNameRange     '2.0.0',
+429 silly addNameRange     '2.1.0',
+429 silly addNameRange     '2.2.0',
+429 silly addNameRange     '2.2.1',
+429 silly addNameRange     '2.3.0',
+429 silly addNameRange     '2.4.0',
+429 silly addNameRange     '2.4.1',
+429 silly addNameRange     '3.0.0',
+429 silly addNameRange     '3.0.1',
+429 silly addNameRange     '3.1.0',
+429 silly addNameRange     '3.2.0',
+429 silly addNameRange     '3.3.0',
+429 silly addNameRange     '3.3.1',
+429 silly addNameRange     '3.4.0',
+429 silly addNameRange     '3.5.0',
+429 silly addNameRange     '3.6.0',
+429 silly addNameRange     '1.0.2',
+429 silly addNameRange     '3.7.0',
+429 silly addNameRange     '2.4.2',
+429 silly addNameRange     '3.8.0',
+429 silly addNameRange     '3.9.0',
+429 silly addNameRange     '3.9.1',
+429 silly addNameRange     '3.9.2',
+429 silly addNameRange     '3.9.3',
+429 silly addNameRange     '3.10.0',
+429 silly addNameRange     '3.10.1',
+429 silly addNameRange     '4.0.0',
+429 silly addNameRange     '4.0.1',
+429 silly addNameRange     '4.1.0',
+429 silly addNameRange     '4.2.0',
+429 silly addNameRange     '4.2.1',
+429 silly addNameRange     '4.3.0',
+429 silly addNameRange     '4.4.0',
+429 silly addNameRange     '4.5.0',
+429 silly addNameRange     '4.5.1',
+429 silly addNameRange     '4.6.0',
+429 silly addNameRange     '4.6.1',
+429 silly addNameRange     '4.7.0',
+429 silly addNameRange     '4.8.0',
+429 silly addNameRange     '4.8.1',
+429 silly addNameRange     '4.8.2',
+429 silly addNameRange     '4.9.0',
+429 silly addNameRange     '4.10.0',
+429 silly addNameRange     '4.11.0',
+429 silly addNameRange     '4.11.1',
+429 silly addNameRange     '4.11.2',
+429 silly addNameRange     '4.12.0',
+429 silly addNameRange     '4.13.0',
+429 silly addNameRange     '4.13.1',
+429 silly addNameRange     '4.14.0',
+429 silly addNameRange     '4.14.1',
+429 silly addNameRange     '4.14.2',
+429 silly addNameRange     '4.15.0',
+429 silly addNameRange     '4.16.0',
+429 silly addNameRange     '4.16.1',
+429 silly addNameRange     '4.16.2',
+429 silly addNameRange     '4.16.3',
+429 silly addNameRange     '4.16.4',
+429 silly addNameRange     '4.16.5',
+429 silly addNameRange     '4.16.6',
+429 silly addNameRange     '4.17.0',
+429 silly addNameRange     '4.17.1',
+429 silly addNameRange     '4.17.2',
+429 silly addNameRange     '4.17.3',
+429 silly addNameRange     '4.17.4',
+429 silly addNameRange     ... 4 more items ] ]
+430 silly addNamed lodash@4.17.11
+431 verbose addNamed "4.17.11" is a plain semver version for lodash
+432 silly cache afterAdd lodash@4.17.11
+433 verbose afterAdd /Users/ksures200/.npm/lodash/4.17.11/package/package.json not in flight; writing
+434 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+435 verbose afterAdd /Users/ksures200/.npm/lodash/4.17.11/package/package.json written
+436 info attempt registry request try #3 at 10:38:07 AM
+437 verbose etag W/"bffbe1b4fab9bdfdb0afe633e667d3b5"
+438 verbose lastModified Thu, 07 Jun 2018 07:26:36 GMT
+439 http request GET https://registry.npmjs.org/core-js
+440 info attempt registry request try #3 at 10:38:07 AM
+441 verbose etag W/"9707581ba819e114d7e14b148e9b4e1d"
+442 verbose lastModified Sat, 15 Sep 2018 01:53:18 GMT
+443 http request GET https://registry.npmjs.org/mongodb
+444 info attempt registry request try #3 at 10:38:07 AM
+445 verbose etag W/"e856a51a499100244c31587700c2a049"
+446 verbose lastModified Sun, 04 Nov 2018 21:00:17 GMT
+447 http request GET https://registry.npmjs.org/cors
+448 info attempt registry request try #3 at 10:38:07 AM
+449 http request GET https://registry.npmjs.org/connect-mongodb-session
+450 info attempt registry request try #3 at 10:38:07 AM
+451 verbose etag W/"e5cb93ba6e2116ce7a8d23e96b9eaabf"
+452 verbose lastModified Wed, 07 Nov 2018 22:53:34 GMT
+453 http request GET https://registry.npmjs.org/body-parser
+454 info attempt registry request try #3 at 10:38:07 AM
+455 verbose etag W/"74f3a7892e66ddedf93309bff3040a25"
+456 verbose lastModified Mon, 29 Oct 2018 03:06:44 GMT
+457 http request GET https://registry.npmjs.org/moment-timezone
+458 info attempt registry request try #3 at 10:38:07 AM
+459 verbose etag W/"e7df3d8b87595f6d61d21e40da4f8a35"
+460 verbose lastModified Thu, 01 Nov 2018 17:30:01 GMT
+461 http request GET https://registry.npmjs.org/uuid
+462 info attempt registry request try #3 at 10:38:07 AM
+463 http request GET https://registry.npmjs.org/express-jwt
+464 info attempt registry request try #3 at 10:38:07 AM
+465 verbose etag W/"03a509d4584000a3747262a1a3220aff"
+466 verbose lastModified Sat, 26 May 2018 20:44:12 GMT
+467 http request GET https://registry.npmjs.org/connect-mongo
+468 info attempt registry request try #3 at 10:38:07 AM
+469 verbose etag W/"748e45b8ddc409413df534ec8c4d4b4c"
+470 verbose lastModified Fri, 03 Aug 2018 00:34:28 GMT
+471 http request GET https://registry.npmjs.org/passport-local
+472 info attempt registry request try #3 at 10:38:07 AM
+473 http request GET https://registry.npmjs.org/zone.js
+474 info attempt registry request try #3 at 10:38:07 AM
+475 verbose etag W/"5bcaa9c6bc2a925aa883cbf0c05d81da"
+476 verbose lastModified Tue, 02 Oct 2018 13:00:52 GMT
+477 http request GET https://registry.npmjs.org/mongoose
+478 info attempt registry request try #3 at 10:38:07 AM
+479 http request GET https://registry.npmjs.org/hammerjs
+480 info attempt registry request try #3 at 10:38:07 AM
+481 verbose etag W/"0fcb131f41f4be3c0b48781fc80e16bb"
+482 verbose lastModified Fri, 03 Aug 2018 00:32:09 GMT
+483 http request GET https://registry.npmjs.org/express-session
+484 info attempt registry request try #3 at 10:38:07 AM
+485 http request GET https://registry.npmjs.org/passport-azure-ad
+486 info attempt registry request try #3 at 10:38:07 AM
+487 http request GET https://registry.npmjs.org/rxjs
+488 info attempt registry request try #3 at 10:38:07 AM
+489 verbose etag W/"43d9101d543887e37d04f9d8326b5980"
+490 verbose lastModified Sun, 30 Sep 2018 17:03:32 GMT
+491 http request GET https://registry.npmjs.org/passport
+492 info attempt registry request try #3 at 10:38:07 AM
+493 verbose etag W/"c0d1598a2592dc055373d7337e9f099c"
+494 verbose lastModified Wed, 31 Oct 2018 10:16:01 GMT
+495 http request GET https://registry.npmjs.org/moment
+496 info attempt registry request try #3 at 10:38:07 AM
+497 http request GET https://registry.npmjs.org/node-schedule
+498 info attempt registry request try #3 at 10:38:07 AM
+499 verbose etag W/"87e21b2ea878ee14762dc2cda7b03a6e"
+500 verbose lastModified Thu, 02 Aug 2018 09:57:52 GMT
+501 http request GET https://registry.npmjs.org/cookie-parser
+502 info attempt registry request try #3 at 10:38:07 AM
+503 verbose etag W/"47c0845aef63816917124bd4556556a7"
+504 verbose lastModified Thu, 08 Nov 2018 23:54:13 GMT
+505 http request GET https://registry.npmjs.org/jsonwebtoken
+506 silly get cb [ 304, undefined ]
+507 verbose etag https://registry.npmjs.org/cors from cache
+508 verbose get saving cors to /Users/ksures200/.npm/registry.npmjs.org/cors/.cache.json
+509 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+510 info attempt registry request try #3 at 10:38:07 AM
+511 verbose etag W/"fe5376e45cc562b82071fcfe66f1a744"
+512 verbose lastModified Wed, 31 Oct 2018 23:01:08 GMT
+513 http request GET https://registry.npmjs.org/express
+514 silly fetchPackageMetaData Error: unable to get local issuer certificate
+514 silly fetchPackageMetaData     at Error (native)
+514 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+514 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+514 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+514 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+514 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+514 silly fetchPackageMetaData  error for connect-mongodb-session@^2.0.3 { Error: unable to get local issuer certificate
+514 silly fetchPackageMetaData     at Error (native)
+514 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+514 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+514 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+514 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+514 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+515 silly resolveWithNewModule cors@2.8.5 checking installable status
+516 silly cache add args [ 'cors@^2.8.4', null ]
+517 verbose cache add spec cors@^2.8.4
+518 silly cache add parsed spec Result {
+518 silly cache add   raw: 'cors@^2.8.4',
+518 silly cache add   scope: null,
+518 silly cache add   escapedName: 'cors',
+518 silly cache add   name: 'cors',
+518 silly cache add   rawSpec: '^2.8.4',
+518 silly cache add   spec: '>=2.8.4 <3.0.0',
+518 silly cache add   type: 'range' }
+519 silly addNamed cors@>=2.8.4 <3.0.0
+520 verbose addNamed ">=2.8.4 <3.0.0" is a valid semver range for cors
+521 silly addNameRange { name: 'cors', range: '>=2.8.4 <3.0.0', hasData: false }
+522 silly mapToRegistry name cors
+523 silly mapToRegistry using default registry
+524 silly mapToRegistry registry https://registry.npmjs.org/
+525 silly mapToRegistry data Result {
+525 silly mapToRegistry   raw: 'cors',
+525 silly mapToRegistry   scope: null,
+525 silly mapToRegistry   escapedName: 'cors',
+525 silly mapToRegistry   name: 'cors',
+525 silly mapToRegistry   rawSpec: '',
+525 silly mapToRegistry   spec: 'latest',
+525 silly mapToRegistry   type: 'tag' }
+526 silly mapToRegistry uri https://registry.npmjs.org/cors
+527 verbose addNameRange registry:https://registry.npmjs.org/cors not in flight; fetching
+528 silly get cb [ 304, undefined ]
+529 verbose etag https://registry.npmjs.org/uuid from cache
+530 verbose get saving uuid to /Users/ksures200/.npm/registry.npmjs.org/uuid/.cache.json
+531 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+532 silly get cb [ 304, undefined ]
+533 verbose etag https://registry.npmjs.org/core-js from cache
+534 verbose get saving core-js to /Users/ksures200/.npm/registry.npmjs.org/core-js/.cache.json
+535 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+536 silly get cb [ 304, undefined ]
+537 verbose etag https://registry.npmjs.org/mongodb from cache
+538 verbose get saving mongodb to /Users/ksures200/.npm/registry.npmjs.org/mongodb/.cache.json
+539 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+540 silly get cb [ 304, undefined ]
+541 verbose etag https://registry.npmjs.org/passport-local from cache
+542 verbose get saving passport-local to /Users/ksures200/.npm/registry.npmjs.org/passport-local/.cache.json
+543 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+544 silly get cb [ 304, undefined ]
+545 verbose etag https://registry.npmjs.org/moment-timezone from cache
+546 verbose get saving moment-timezone to /Users/ksures200/.npm/registry.npmjs.org/moment-timezone/.cache.json
+547 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+548 silly fetchPackageMetaData Error: unable to get local issuer certificate
+548 silly fetchPackageMetaData     at Error (native)
+548 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+548 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+548 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+548 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+548 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+548 silly fetchPackageMetaData  error for zone.js@^0.8.26 { Error: unable to get local issuer certificate
+548 silly fetchPackageMetaData     at Error (native)
+548 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+548 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+548 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+548 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+548 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+549 silly get cb [ 304, undefined ]
+550 verbose etag https://registry.npmjs.org/body-parser from cache
+551 verbose get saving body-parser to /Users/ksures200/.npm/registry.npmjs.org/body-parser/.cache.json
+552 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+553 silly fetchPackageMetaData Error: unable to get local issuer certificate
+553 silly fetchPackageMetaData     at Error (native)
+553 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+553 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+553 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+553 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+553 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+553 silly fetchPackageMetaData  error for express-jwt@^5.3.1 { Error: unable to get local issuer certificate
+553 silly fetchPackageMetaData     at Error (native)
+553 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+553 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+553 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+553 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+553 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+554 silly get cb [ 304, undefined ]
+555 verbose etag https://registry.npmjs.org/connect-mongo from cache
+556 verbose get saving connect-mongo to /Users/ksures200/.npm/registry.npmjs.org/connect-mongo/.cache.json
+557 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+558 verbose get https://registry.npmjs.org/cors not expired, no request
+559 silly addNameRange number 2 { name: 'cors', range: '>=2.8.4 <3.0.0', hasData: true }
+560 silly addNameRange versions [ 'cors',
+560 silly addNameRange   [ '0.0.1',
+560 silly addNameRange     '0.0.2',
+560 silly addNameRange     '0.0.3',
+560 silly addNameRange     '0.0.4',
+560 silly addNameRange     '0.0.5',
+560 silly addNameRange     '0.1.0',
+560 silly addNameRange     '0.1.1',
+560 silly addNameRange     '1.0.0',
+560 silly addNameRange     '1.0.1',
+560 silly addNameRange     '2.0.0',
+560 silly addNameRange     '2.1.0',
+560 silly addNameRange     '2.1.1',
+560 silly addNameRange     '2.2.0',
+560 silly addNameRange     '2.3.0',
+560 silly addNameRange     '2.3.1',
+560 silly addNameRange     '2.3.2',
+560 silly addNameRange     '2.4.0',
+560 silly addNameRange     '2.4.1',
+560 silly addNameRange     '2.4.2',
+560 silly addNameRange     '2.5.0',
+560 silly addNameRange     '2.5.1',
+560 silly addNameRange     '2.5.2',
+560 silly addNameRange     '2.5.3',
+560 silly addNameRange     '2.6.0',
+560 silly addNameRange     '2.6.1',
+560 silly addNameRange     '2.7.0',
+560 silly addNameRange     '2.7.1',
+560 silly addNameRange     '2.7.2',
+560 silly addNameRange     '2.8.0',
+560 silly addNameRange     '2.8.1',
+560 silly addNameRange     '2.8.2',
+560 silly addNameRange     '2.8.3',
+560 silly addNameRange     '2.8.4',
+560 silly addNameRange     '2.8.5' ] ]
+561 silly addNamed cors@2.8.5
+562 verbose addNamed "2.8.5" is a plain semver version for cors
+563 silly fetchPackageMetaData Error: unable to get local issuer certificate
+563 silly fetchPackageMetaData     at Error (native)
+563 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+563 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+563 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+563 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+563 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+563 silly fetchPackageMetaData  error for hammerjs@^2.0.8 { Error: unable to get local issuer certificate
+563 silly fetchPackageMetaData     at Error (native)
+563 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+563 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+563 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+563 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+563 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+564 silly fetchPackageMetaData Error: unable to get local issuer certificate
+564 silly fetchPackageMetaData     at Error (native)
+564 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+564 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+564 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+564 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+564 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+564 silly fetchPackageMetaData  error for passport-azure-ad@^3.0.12 { Error: unable to get local issuer certificate
+564 silly fetchPackageMetaData     at Error (native)
+564 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+564 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+564 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+564 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+564 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+565 silly get cb [ 304, undefined ]
+566 verbose etag https://registry.npmjs.org/mongoose from cache
+567 verbose get saving mongoose to /Users/ksures200/.npm/registry.npmjs.org/mongoose/.cache.json
+568 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+569 silly get cb [ 304, undefined ]
+570 verbose etag https://registry.npmjs.org/express-session from cache
+571 verbose get saving express-session to /Users/ksures200/.npm/registry.npmjs.org/express-session/.cache.json
+572 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+573 silly fetchPackageMetaData Error: unable to get local issuer certificate
+573 silly fetchPackageMetaData     at Error (native)
+573 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+573 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+573 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+573 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+573 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+573 silly fetchPackageMetaData  error for rxjs@^6.0.0 { Error: unable to get local issuer certificate
+573 silly fetchPackageMetaData     at Error (native)
+573 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+573 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+573 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+573 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+573 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+574 silly get cb [ 304, undefined ]
+575 verbose etag https://registry.npmjs.org/passport from cache
+576 verbose get saving passport to /Users/ksures200/.npm/registry.npmjs.org/passport/.cache.json
+577 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+578 silly get cb [ 304, undefined ]
+579 verbose etag https://registry.npmjs.org/express from cache
+580 verbose get saving express to /Users/ksures200/.npm/registry.npmjs.org/express/.cache.json
+581 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+582 silly get cb [ 304, undefined ]
+583 verbose etag https://registry.npmjs.org/moment from cache
+584 verbose get saving moment to /Users/ksures200/.npm/registry.npmjs.org/moment/.cache.json
+585 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+586 silly fetchPackageMetaData Error: unable to get local issuer certificate
+586 silly fetchPackageMetaData     at Error (native)
+586 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+586 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+586 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+586 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+586 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+586 silly fetchPackageMetaData  error for node-schedule@^1.3.0 { Error: unable to get local issuer certificate
+586 silly fetchPackageMetaData     at Error (native)
+586 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+586 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+586 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+586 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+586 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+587 silly get cb [ 304, undefined ]
+588 verbose etag https://registry.npmjs.org/jsonwebtoken from cache
+589 verbose get saving jsonwebtoken to /Users/ksures200/.npm/registry.npmjs.org/jsonwebtoken/.cache.json
+590 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+591 silly get cb [ 304, undefined ]
+592 verbose etag https://registry.npmjs.org/cookie-parser from cache
+593 verbose get saving cookie-parser to /Users/ksures200/.npm/registry.npmjs.org/cookie-parser/.cache.json
+594 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+595 silly resolveWithNewModule uuid@3.3.2 checking installable status
+596 silly cache add args [ 'uuid@^3.3.2', null ]
+597 verbose cache add spec uuid@^3.3.2
+598 silly cache add parsed spec Result {
+598 silly cache add   raw: 'uuid@^3.3.2',
+598 silly cache add   scope: null,
+598 silly cache add   escapedName: 'uuid',
+598 silly cache add   name: 'uuid',
+598 silly cache add   rawSpec: '^3.3.2',
+598 silly cache add   spec: '>=3.3.2 <4.0.0',
+598 silly cache add   type: 'range' }
+599 silly addNamed uuid@>=3.3.2 <4.0.0
+600 verbose addNamed ">=3.3.2 <4.0.0" is a valid semver range for uuid
+601 silly addNameRange { name: 'uuid', range: '>=3.3.2 <4.0.0', hasData: false }
+602 silly mapToRegistry name uuid
+603 silly mapToRegistry using default registry
+604 silly mapToRegistry registry https://registry.npmjs.org/
+605 silly mapToRegistry data Result {
+605 silly mapToRegistry   raw: 'uuid',
+605 silly mapToRegistry   scope: null,
+605 silly mapToRegistry   escapedName: 'uuid',
+605 silly mapToRegistry   name: 'uuid',
+605 silly mapToRegistry   rawSpec: '',
+605 silly mapToRegistry   spec: 'latest',
+605 silly mapToRegistry   type: 'tag' }
+606 silly mapToRegistry uri https://registry.npmjs.org/uuid
+607 verbose addNameRange registry:https://registry.npmjs.org/uuid not in flight; fetching
+608 silly cache afterAdd cors@2.8.5
+609 verbose afterAdd /Users/ksures200/.npm/cors/2.8.5/package/package.json not in flight; writing
+610 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+611 silly resolveWithNewModule mongodb@2.2.36 checking installable status
+612 silly cache add args [ 'mongodb@^2.2.31', null ]
+613 verbose cache add spec mongodb@^2.2.31
+614 silly cache add parsed spec Result {
+614 silly cache add   raw: 'mongodb@^2.2.31',
+614 silly cache add   scope: null,
+614 silly cache add   escapedName: 'mongodb',
+614 silly cache add   name: 'mongodb',
+614 silly cache add   rawSpec: '^2.2.31',
+614 silly cache add   spec: '>=2.2.31 <3.0.0',
+614 silly cache add   type: 'range' }
+615 silly addNamed mongodb@>=2.2.31 <3.0.0
+616 verbose addNamed ">=2.2.31 <3.0.0" is a valid semver range for mongodb
+617 silly addNameRange { name: 'mongodb', range: '>=2.2.31 <3.0.0', hasData: false }
+618 silly mapToRegistry name mongodb
+619 silly mapToRegistry using default registry
+620 silly mapToRegistry registry https://registry.npmjs.org/
+621 silly mapToRegistry data Result {
+621 silly mapToRegistry   raw: 'mongodb',
+621 silly mapToRegistry   scope: null,
+621 silly mapToRegistry   escapedName: 'mongodb',
+621 silly mapToRegistry   name: 'mongodb',
+621 silly mapToRegistry   rawSpec: '',
+621 silly mapToRegistry   spec: 'latest',
+621 silly mapToRegistry   type: 'tag' }
+622 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+623 verbose addNameRange registry:https://registry.npmjs.org/mongodb not in flight; fetching
+624 silly resolveWithNewModule core-js@2.5.7 checking installable status
+625 silly cache add args [ 'core-js@^2.5.4', null ]
+626 verbose cache add spec core-js@^2.5.4
+627 silly cache add parsed spec Result {
+627 silly cache add   raw: 'core-js@^2.5.4',
+627 silly cache add   scope: null,
+627 silly cache add   escapedName: 'core-js',
+627 silly cache add   name: 'core-js',
+627 silly cache add   rawSpec: '^2.5.4',
+627 silly cache add   spec: '>=2.5.4 <3.0.0',
+627 silly cache add   type: 'range' }
+628 silly addNamed core-js@>=2.5.4 <3.0.0
+629 verbose addNamed ">=2.5.4 <3.0.0" is a valid semver range for core-js
+630 silly addNameRange { name: 'core-js', range: '>=2.5.4 <3.0.0', hasData: false }
+631 silly mapToRegistry name core-js
+632 silly mapToRegistry using default registry
+633 silly mapToRegistry registry https://registry.npmjs.org/
+634 silly mapToRegistry data Result {
+634 silly mapToRegistry   raw: 'core-js',
+634 silly mapToRegistry   scope: null,
+634 silly mapToRegistry   escapedName: 'core-js',
+634 silly mapToRegistry   name: 'core-js',
+634 silly mapToRegistry   rawSpec: '',
+634 silly mapToRegistry   spec: 'latest',
+634 silly mapToRegistry   type: 'tag' }
+635 silly mapToRegistry uri https://registry.npmjs.org/core-js
+636 verbose addNameRange registry:https://registry.npmjs.org/core-js not in flight; fetching
+637 silly resolveWithNewModule passport-local@1.0.0 checking installable status
+638 silly cache add args [ 'passport-local@^1.0.0', null ]
+639 verbose cache add spec passport-local@^1.0.0
+640 silly cache add parsed spec Result {
+640 silly cache add   raw: 'passport-local@^1.0.0',
+640 silly cache add   scope: null,
+640 silly cache add   escapedName: 'passport-local',
+640 silly cache add   name: 'passport-local',
+640 silly cache add   rawSpec: '^1.0.0',
+640 silly cache add   spec: '>=1.0.0 <2.0.0',
+640 silly cache add   type: 'range' }
+641 silly addNamed passport-local@>=1.0.0 <2.0.0
+642 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for passport-local
+643 silly addNameRange { name: 'passport-local',
+643 silly addNameRange   range: '>=1.0.0 <2.0.0',
+643 silly addNameRange   hasData: false }
+644 silly mapToRegistry name passport-local
+645 silly mapToRegistry using default registry
+646 silly mapToRegistry registry https://registry.npmjs.org/
+647 silly mapToRegistry data Result {
+647 silly mapToRegistry   raw: 'passport-local',
+647 silly mapToRegistry   scope: null,
+647 silly mapToRegistry   escapedName: 'passport-local',
+647 silly mapToRegistry   name: 'passport-local',
+647 silly mapToRegistry   rawSpec: '',
+647 silly mapToRegistry   spec: 'latest',
+647 silly mapToRegistry   type: 'tag' }
+648 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+649 verbose addNameRange registry:https://registry.npmjs.org/passport-local not in flight; fetching
+650 silly resolveWithNewModule moment-timezone@0.5.23 checking installable status
+651 silly cache add args [ 'moment-timezone@^0.5.21', null ]
+652 verbose cache add spec moment-timezone@^0.5.21
+653 silly cache add parsed spec Result {
+653 silly cache add   raw: 'moment-timezone@^0.5.21',
+653 silly cache add   scope: null,
+653 silly cache add   escapedName: 'moment-timezone',
+653 silly cache add   name: 'moment-timezone',
+653 silly cache add   rawSpec: '^0.5.21',
+653 silly cache add   spec: '>=0.5.21 <0.6.0',
+653 silly cache add   type: 'range' }
+654 silly addNamed moment-timezone@>=0.5.21 <0.6.0
+655 verbose addNamed ">=0.5.21 <0.6.0" is a valid semver range for moment-timezone
+656 silly addNameRange { name: 'moment-timezone',
+656 silly addNameRange   range: '>=0.5.21 <0.6.0',
+656 silly addNameRange   hasData: false }
+657 silly mapToRegistry name moment-timezone
+658 silly mapToRegistry using default registry
+659 silly mapToRegistry registry https://registry.npmjs.org/
+660 silly mapToRegistry data Result {
+660 silly mapToRegistry   raw: 'moment-timezone',
+660 silly mapToRegistry   scope: null,
+660 silly mapToRegistry   escapedName: 'moment-timezone',
+660 silly mapToRegistry   name: 'moment-timezone',
+660 silly mapToRegistry   rawSpec: '',
+660 silly mapToRegistry   spec: 'latest',
+660 silly mapToRegistry   type: 'tag' }
+661 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+662 verbose addNameRange registry:https://registry.npmjs.org/moment-timezone not in flight; fetching
+663 silly resolveWithNewModule body-parser@1.18.3 checking installable status
+664 silly cache add args [ 'body-parser@^1.17.2', null ]
+665 verbose cache add spec body-parser@^1.17.2
+666 silly cache add parsed spec Result {
+666 silly cache add   raw: 'body-parser@^1.17.2',
+666 silly cache add   scope: null,
+666 silly cache add   escapedName: 'body-parser',
+666 silly cache add   name: 'body-parser',
+666 silly cache add   rawSpec: '^1.17.2',
+666 silly cache add   spec: '>=1.17.2 <2.0.0',
+666 silly cache add   type: 'range' }
+667 silly addNamed body-parser@>=1.17.2 <2.0.0
+668 verbose addNamed ">=1.17.2 <2.0.0" is a valid semver range for body-parser
+669 silly addNameRange { name: 'body-parser', range: '>=1.17.2 <2.0.0', hasData: false }
+670 silly mapToRegistry name body-parser
+671 silly mapToRegistry using default registry
+672 silly mapToRegistry registry https://registry.npmjs.org/
+673 silly mapToRegistry data Result {
+673 silly mapToRegistry   raw: 'body-parser',
+673 silly mapToRegistry   scope: null,
+673 silly mapToRegistry   escapedName: 'body-parser',
+673 silly mapToRegistry   name: 'body-parser',
+673 silly mapToRegistry   rawSpec: '',
+673 silly mapToRegistry   spec: 'latest',
+673 silly mapToRegistry   type: 'tag' }
+674 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+675 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+676 silly resolveWithNewModule connect-mongo@2.0.1 checking installable status
+677 silly cache add args [ 'connect-mongo@^2.0.1', null ]
+678 verbose cache add spec connect-mongo@^2.0.1
+679 silly cache add parsed spec Result {
+679 silly cache add   raw: 'connect-mongo@^2.0.1',
+679 silly cache add   scope: null,
+679 silly cache add   escapedName: 'connect-mongo',
+679 silly cache add   name: 'connect-mongo',
+679 silly cache add   rawSpec: '^2.0.1',
+679 silly cache add   spec: '>=2.0.1 <3.0.0',
+679 silly cache add   type: 'range' }
+680 silly addNamed connect-mongo@>=2.0.1 <3.0.0
+681 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for connect-mongo
+682 silly addNameRange { name: 'connect-mongo',
+682 silly addNameRange   range: '>=2.0.1 <3.0.0',
+682 silly addNameRange   hasData: false }
+683 silly mapToRegistry name connect-mongo
+684 silly mapToRegistry using default registry
+685 silly mapToRegistry registry https://registry.npmjs.org/
+686 silly mapToRegistry data Result {
+686 silly mapToRegistry   raw: 'connect-mongo',
+686 silly mapToRegistry   scope: null,
+686 silly mapToRegistry   escapedName: 'connect-mongo',
+686 silly mapToRegistry   name: 'connect-mongo',
+686 silly mapToRegistry   rawSpec: '',
+686 silly mapToRegistry   spec: 'latest',
+686 silly mapToRegistry   type: 'tag' }
+687 silly mapToRegistry uri https://registry.npmjs.org/connect-mongo
+688 verbose addNameRange registry:https://registry.npmjs.org/connect-mongo not in flight; fetching
+689 verbose get https://registry.npmjs.org/uuid not expired, no request
+690 silly addNameRange number 2 { name: 'uuid', range: '>=3.3.2 <4.0.0', hasData: true }
+691 silly addNameRange versions [ 'uuid',
+691 silly addNameRange   [ '0.0.1',
+691 silly addNameRange     '0.0.2',
+691 silly addNameRange     '1.4.0',
+691 silly addNameRange     '1.4.1',
+691 silly addNameRange     '1.4.2',
+691 silly addNameRange     '2.0.0',
+691 silly addNameRange     '2.0.1',
+691 silly addNameRange     '2.0.2',
+691 silly addNameRange     '2.0.3',
+691 silly addNameRange     '3.0.0',
+691 silly addNameRange     '3.0.1',
+691 silly addNameRange     '3.1.0',
+691 silly addNameRange     '3.2.0',
+691 silly addNameRange     '3.2.1',
+691 silly addNameRange     '3.3.0',
+691 silly addNameRange     '3.3.2' ] ]
+692 silly addNamed uuid@3.3.2
+693 verbose addNamed "3.3.2" is a plain semver version for uuid
+694 verbose get https://registry.npmjs.org/mongodb not expired, no request
+695 silly addNameRange number 2 { name: 'mongodb', range: '>=2.2.31 <3.0.0', hasData: true }
+696 silly addNameRange versions [ 'mongodb',
+696 silly addNameRange   [ '0.9.4',
+696 silly addNameRange     '0.9.4-4',
+696 silly addNameRange     '0.9.3',
+696 silly addNameRange     '0.9.1',
+696 silly addNameRange     '0.9.2',
+696 silly addNameRange     '0.9.6-7',
+696 silly addNameRange     '0.9.6-8',
+696 silly addNameRange     '0.9.6-9',
+696 silly addNameRange     '0.9.6-10',
+696 silly addNameRange     '0.9.6-11',
+696 silly addNameRange     '0.9.6-12',
+696 silly addNameRange     '0.9.6-13',
+696 silly addNameRange     '0.9.6-14',
+696 silly addNameRange     '0.9.6-15',
+696 silly addNameRange     '0.9.6-16',
+696 silly addNameRange     '0.9.6-17',
+696 silly addNameRange     '0.9.6-18',
+696 silly addNameRange     '0.9.6-19',
+696 silly addNameRange     '0.9.6-20',
+696 silly addNameRange     '0.9.6-21',
+696 silly addNameRange     '0.9.6-22',
+696 silly addNameRange     '0.9.6-23',
+696 silly addNameRange     '0.9.7',
+696 silly addNameRange     '0.9.7-0',
+696 silly addNameRange     '0.9.7-1',
+696 silly addNameRange     '0.9.7-1.1',
+696 silly addNameRange     '0.9.7-1.2',
+696 silly addNameRange     '0.9.7-1.3',
+696 silly addNameRange     '0.9.7-1.4',
+696 silly addNameRange     '0.9.7-2',
+696 silly addNameRange     '0.9.7-2-1',
+696 silly addNameRange     '0.9.7-2-2',
+696 silly addNameRange     '0.9.7-2-3',
+696 silly addNameRange     '0.9.7-2-4',
+696 silly addNameRange     '0.9.7-2-5',
+696 silly addNameRange     '0.9.7-3',
+696 silly addNameRange     '0.9.7-3-1',
+696 silly addNameRange     '0.9.7-3-2',
+696 silly addNameRange     '0.9.7-3-3',
+696 silly addNameRange     '0.9.7-3-4',
+696 silly addNameRange     '0.9.7-3-5',
+696 silly addNameRange     '0.9.8',
+696 silly addNameRange     '0.9.8-1',
+696 silly addNameRange     '0.9.8-2',
+696 silly addNameRange     '0.9.8-3',
+696 silly addNameRange     '0.9.8-4',
+696 silly addNameRange     '0.9.8-5',
+696 silly addNameRange     '0.9.8-6',
+696 silly addNameRange     '0.9.8-7',
+696 silly addNameRange     '0.9.9',
+696 silly addNameRange     '0.9.9-1',
+696 silly addNameRange     '0.9.9-2',
+696 silly addNameRange     '0.9.9-3',
+696 silly addNameRange     '0.9.9-4',
+696 silly addNameRange     '0.9.9-5',
+696 silly addNameRange     '0.9.9-6',
+696 silly addNameRange     '0.9.9-7',
+696 silly addNameRange     '0.9.9-8',
+696 silly addNameRange     '1.0.0',
+696 silly addNameRange     '1.0.1',
+696 silly addNameRange     '1.0.2',
+696 silly addNameRange     '1.1.0-beta',
+696 silly addNameRange     '1.1.0',
+696 silly addNameRange     '1.1.1',
+696 silly addNameRange     '1.1.2',
+696 silly addNameRange     '1.1.3',
+696 silly addNameRange     '1.1.4',
+696 silly addNameRange     '1.1.5',
+696 silly addNameRange     '1.1.6',
+696 silly addNameRange     '1.1.7',
+696 silly addNameRange     '1.1.8',
+696 silly addNameRange     '1.1.9',
+696 silly addNameRange     '1.1.10',
+696 silly addNameRange     '1.1.11',
+696 silly addNameRange     '1.2.0',
+696 silly addNameRange     '1.2.1',
+696 silly addNameRange     '1.2.2',
+696 silly addNameRange     '1.2.3',
+696 silly addNameRange     '1.2.4',
+696 silly addNameRange     '1.2.5',
+696 silly addNameRange     '1.2.6',
+696 silly addNameRange     '1.2.7',
+696 silly addNameRange     '1.2.8',
+696 silly addNameRange     '1.2.9',
+696 silly addNameRange     '1.2.10',
+696 silly addNameRange     '1.2.11',
+696 silly addNameRange     '1.2.12',
+696 silly addNameRange     '1.2.13',
+696 silly addNameRange     '1.2.14',
+696 silly addNameRange     '1.3.0',
+696 silly addNameRange     '1.3.1',
+696 silly addNameRange     '1.3.2',
+696 silly addNameRange     '1.3.3',
+696 silly addNameRange     '1.3.4',
+696 silly addNameRange     '1.3.5',
+696 silly addNameRange     '1.3.6',
+696 silly addNameRange     '1.3.7',
+696 silly addNameRange     '1.3.8',
+696 silly addNameRange     '1.3.9',
+696 silly addNameRange     '1.3.10',
+696 silly addNameRange     ... 208 more items ] ]
+697 silly addNamed mongodb@2.2.36
+698 verbose addNamed "2.2.36" is a plain semver version for mongodb
+699 verbose get https://registry.npmjs.org/core-js not expired, no request
+700 silly addNameRange number 2 { name: 'core-js', range: '>=2.5.4 <3.0.0', hasData: true }
+701 silly addNameRange versions [ 'core-js',
+701 silly addNameRange   [ '0.0.3',
+701 silly addNameRange     '0.0.4',
+701 silly addNameRange     '0.0.5',
+701 silly addNameRange     '0.0.7',
+701 silly addNameRange     '0.0.8',
+701 silly addNameRange     '0.0.9',
+701 silly addNameRange     '0.1.1',
+701 silly addNameRange     '0.1.2',
+701 silly addNameRange     '0.1.3',
+701 silly addNameRange     '0.1.4',
+701 silly addNameRange     '0.1.5',
+701 silly addNameRange     '0.2.0',
+701 silly addNameRange     '0.2.1',
+701 silly addNameRange     '0.2.2',
+701 silly addNameRange     '0.2.3',
+701 silly addNameRange     '0.2.4',
+701 silly addNameRange     '0.2.5',
+701 silly addNameRange     '0.3.0',
+701 silly addNameRange     '0.3.1',
+701 silly addNameRange     '0.3.2',
+701 silly addNameRange     '0.3.3',
+701 silly addNameRange     '0.4.0',
+701 silly addNameRange     '0.4.1',
+701 silly addNameRange     '0.4.2',
+701 silly addNameRange     '0.4.3',
+701 silly addNameRange     '0.4.4',
+701 silly addNameRange     '0.4.5',
+701 silly addNameRange     '0.4.6',
+701 silly addNameRange     '0.4.7',
+701 silly addNameRange     '0.4.8',
+701 silly addNameRange     '0.4.9',
+701 silly addNameRange     '0.4.10',
+701 silly addNameRange     '0.5.0',
+701 silly addNameRange     '0.5.1',
+701 silly addNameRange     '0.5.2',
+701 silly addNameRange     '0.5.3',
+701 silly addNameRange     '0.5.4',
+701 silly addNameRange     '0.6.0',
+701 silly addNameRange     '0.6.1',
+701 silly addNameRange     '0.7.0',
+701 silly addNameRange     '0.7.1',
+701 silly addNameRange     '0.7.2',
+701 silly addNameRange     '0.8.0',
+701 silly addNameRange     '0.8.1',
+701 silly addNameRange     '0.8.2',
+701 silly addNameRange     '0.8.3',
+701 silly addNameRange     '0.8.4',
+701 silly addNameRange     '0.9.0',
+701 silly addNameRange     '0.9.1',
+701 silly addNameRange     '0.9.2',
+701 silly addNameRange     '0.9.3',
+701 silly addNameRange     '0.9.4',
+701 silly addNameRange     '0.9.5',
+701 silly addNameRange     '0.9.6',
+701 silly addNameRange     '0.9.7',
+701 silly addNameRange     '0.9.8',
+701 silly addNameRange     '0.9.9',
+701 silly addNameRange     '0.9.10',
+701 silly addNameRange     '0.9.11',
+701 silly addNameRange     '0.9.12',
+701 silly addNameRange     '0.9.13',
+701 silly addNameRange     '0.9.14',
+701 silly addNameRange     '0.9.15',
+701 silly addNameRange     '0.9.16',
+701 silly addNameRange     '0.9.17',
+701 silly addNameRange     '0.9.18',
+701 silly addNameRange     '1.0.0',
+701 silly addNameRange     '1.0.1',
+701 silly addNameRange     '1.1.0',
+701 silly addNameRange     '1.1.1',
+701 silly addNameRange     '1.1.2',
+701 silly addNameRange     '1.1.3',
+701 silly addNameRange     '1.1.4',
+701 silly addNameRange     '1.2.0',
+701 silly addNameRange     '1.2.1',
+701 silly addNameRange     '1.2.2',
+701 silly addNameRange     '1.2.3',
+701 silly addNameRange     '1.2.4',
+701 silly addNameRange     '1.2.5',
+701 silly addNameRange     '1.2.6',
+701 silly addNameRange     '2.0.0-alpha',
+701 silly addNameRange     '2.0.0-beta',
+701 silly addNameRange     '2.0.0-beta.2',
+701 silly addNameRange     '2.0.0',
+701 silly addNameRange     '2.0.1',
+701 silly addNameRange     '2.0.2',
+701 silly addNameRange     '2.0.3',
+701 silly addNameRange     '2.1.0',
+701 silly addNameRange     '2.1.1',
+701 silly addNameRange     '2.1.2',
+701 silly addNameRange     '2.1.3',
+701 silly addNameRange     '2.1.4',
+701 silly addNameRange     '2.1.5',
+701 silly addNameRange     '2.2.0',
+701 silly addNameRange     '2.2.1',
+701 silly addNameRange     '2.2.2',
+701 silly addNameRange     '2.3.0',
+701 silly addNameRange     '2.4.0',
+701 silly addNameRange     '1.2.7',
+701 silly addNameRange     '2.4.1',
+701 silly addNameRange     ... 15 more items ] ]
+702 silly addNamed core-js@2.5.7
+703 verbose addNamed "2.5.7" is a plain semver version for core-js
+704 silly resolveWithNewModule mongoose@5.3.1 checking installable status
+705 silly cache add args [ 'mongoose@^5.2.3', null ]
+706 verbose cache add spec mongoose@^5.2.3
+707 silly cache add parsed spec Result {
+707 silly cache add   raw: 'mongoose@^5.2.3',
+707 silly cache add   scope: null,
+707 silly cache add   escapedName: 'mongoose',
+707 silly cache add   name: 'mongoose',
+707 silly cache add   rawSpec: '^5.2.3',
+707 silly cache add   spec: '>=5.2.3 <6.0.0',
+707 silly cache add   type: 'range' }
+708 silly addNamed mongoose@>=5.2.3 <6.0.0
+709 verbose addNamed ">=5.2.3 <6.0.0" is a valid semver range for mongoose
+710 silly addNameRange { name: 'mongoose', range: '>=5.2.3 <6.0.0', hasData: false }
+711 silly mapToRegistry name mongoose
+712 silly mapToRegistry using default registry
+713 silly mapToRegistry registry https://registry.npmjs.org/
+714 silly mapToRegistry data Result {
+714 silly mapToRegistry   raw: 'mongoose',
+714 silly mapToRegistry   scope: null,
+714 silly mapToRegistry   escapedName: 'mongoose',
+714 silly mapToRegistry   name: 'mongoose',
+714 silly mapToRegistry   rawSpec: '',
+714 silly mapToRegistry   spec: 'latest',
+714 silly mapToRegistry   type: 'tag' }
+715 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+716 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+717 verbose get https://registry.npmjs.org/passport-local not expired, no request
+718 silly addNameRange number 2 { name: 'passport-local',
+718 silly addNameRange   range: '>=1.0.0 <2.0.0',
+718 silly addNameRange   hasData: true }
+719 silly addNameRange versions [ 'passport-local',
+719 silly addNameRange   [ '0.1.0',
+719 silly addNameRange     '0.1.1',
+719 silly addNameRange     '0.1.2',
+719 silly addNameRange     '0.1.3',
+719 silly addNameRange     '0.1.4',
+719 silly addNameRange     '0.1.5',
+719 silly addNameRange     '0.1.6',
+719 silly addNameRange     '1.0.0' ] ]
+720 silly addNamed passport-local@1.0.0
+721 verbose addNamed "1.0.0" is a plain semver version for passport-local
+722 verbose get https://registry.npmjs.org/moment-timezone not expired, no request
+723 silly addNameRange number 2 { name: 'moment-timezone',
+723 silly addNameRange   range: '>=0.5.21 <0.6.0',
+723 silly addNameRange   hasData: true }
+724 silly addNameRange versions [ 'moment-timezone',
+724 silly addNameRange   [ '0.0.1',
+724 silly addNameRange     '0.0.2',
+724 silly addNameRange     '0.0.3',
+724 silly addNameRange     '0.0.5',
+724 silly addNameRange     '0.0.6',
+724 silly addNameRange     '0.1.0',
+724 silly addNameRange     '0.2.0',
+724 silly addNameRange     '0.2.1',
+724 silly addNameRange     '0.2.2',
+724 silly addNameRange     '0.2.3',
+724 silly addNameRange     '0.2.4',
+724 silly addNameRange     '0.2.5',
+724 silly addNameRange     '0.3.0',
+724 silly addNameRange     '0.3.1',
+724 silly addNameRange     '0.4.0',
+724 silly addNameRange     '0.4.1',
+724 silly addNameRange     '0.5.0',
+724 silly addNameRange     '0.5.1',
+724 silly addNameRange     '0.5.2',
+724 silly addNameRange     '0.5.3',
+724 silly addNameRange     '0.5.4',
+724 silly addNameRange     '0.5.5',
+724 silly addNameRange     '0.5.6',
+724 silly addNameRange     '0.5.7',
+724 silly addNameRange     '0.5.8',
+724 silly addNameRange     '0.5.9',
+724 silly addNameRange     '0.5.10',
+724 silly addNameRange     '0.5.11',
+724 silly addNameRange     '0.5.12',
+724 silly addNameRange     '0.5.13',
+724 silly addNameRange     '0.5.14',
+724 silly addNameRange     '0.5.15',
+724 silly addNameRange     '0.5.16',
+724 silly addNameRange     '0.5.17',
+724 silly addNameRange     '0.5.18',
+724 silly addNameRange     '0.5.19',
+724 silly addNameRange     '0.5.20',
+724 silly addNameRange     '0.5.21',
+724 silly addNameRange     '0.5.22',
+724 silly addNameRange     '0.5.23' ] ]
+725 silly addNamed moment-timezone@0.5.23
+726 verbose addNamed "0.5.23" is a plain semver version for moment-timezone
+727 verbose afterAdd /Users/ksures200/.npm/cors/2.8.5/package/package.json written
+728 silly mapToRegistry name mongodb
+729 silly mapToRegistry using default registry
+730 silly mapToRegistry registry https://registry.npmjs.org/
+731 silly mapToRegistry data Result {
+731 silly mapToRegistry   raw: 'mongodb',
+731 silly mapToRegistry   scope: null,
+731 silly mapToRegistry   escapedName: 'mongodb',
+731 silly mapToRegistry   name: 'mongodb',
+731 silly mapToRegistry   rawSpec: '',
+731 silly mapToRegistry   spec: 'latest',
+731 silly mapToRegistry   type: 'tag' }
+732 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+733 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz not in flight; adding
+734 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz',
+734 verbose addRemoteTarball   '1c573680b2849fb0f47acbba3dc5fa228de975f5' ]
+735 silly resolveWithNewModule passport@0.4.0 checking installable status
+736 silly cache add args [ 'passport@^0.4.0', null ]
+737 verbose cache add spec passport@^0.4.0
+738 silly cache add parsed spec Result {
+738 silly cache add   raw: 'passport@^0.4.0',
+738 silly cache add   scope: null,
+738 silly cache add   escapedName: 'passport',
+738 silly cache add   name: 'passport',
+738 silly cache add   rawSpec: '^0.4.0',
+738 silly cache add   spec: '>=0.4.0 <0.5.0',
+738 silly cache add   type: 'range' }
+739 silly addNamed passport@>=0.4.0 <0.5.0
+740 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for passport
+741 silly addNameRange { name: 'passport', range: '>=0.4.0 <0.5.0', hasData: false }
+742 silly mapToRegistry name passport
+743 silly mapToRegistry using default registry
+744 silly mapToRegistry registry https://registry.npmjs.org/
+745 silly mapToRegistry data Result {
+745 silly mapToRegistry   raw: 'passport',
+745 silly mapToRegistry   scope: null,
+745 silly mapToRegistry   escapedName: 'passport',
+745 silly mapToRegistry   name: 'passport',
+745 silly mapToRegistry   rawSpec: '',
+745 silly mapToRegistry   spec: 'latest',
+745 silly mapToRegistry   type: 'tag' }
+746 silly mapToRegistry uri https://registry.npmjs.org/passport
+747 verbose addNameRange registry:https://registry.npmjs.org/passport not in flight; fetching
+748 silly resolveWithNewModule express-session@1.15.6 checking installable status
+749 silly cache add args [ 'express-session@^1.15.6', null ]
+750 verbose cache add spec express-session@^1.15.6
+751 silly cache add parsed spec Result {
+751 silly cache add   raw: 'express-session@^1.15.6',
+751 silly cache add   scope: null,
+751 silly cache add   escapedName: 'express-session',
+751 silly cache add   name: 'express-session',
+751 silly cache add   rawSpec: '^1.15.6',
+751 silly cache add   spec: '>=1.15.6 <2.0.0',
+751 silly cache add   type: 'range' }
+752 silly addNamed express-session@>=1.15.6 <2.0.0
+753 verbose addNamed ">=1.15.6 <2.0.0" is a valid semver range for express-session
+754 silly addNameRange { name: 'express-session',
+754 silly addNameRange   range: '>=1.15.6 <2.0.0',
+754 silly addNameRange   hasData: false }
+755 silly mapToRegistry name express-session
+756 silly mapToRegistry using default registry
+757 silly mapToRegistry registry https://registry.npmjs.org/
+758 silly mapToRegistry data Result {
+758 silly mapToRegistry   raw: 'express-session',
+758 silly mapToRegistry   scope: null,
+758 silly mapToRegistry   escapedName: 'express-session',
+758 silly mapToRegistry   name: 'express-session',
+758 silly mapToRegistry   rawSpec: '',
+758 silly mapToRegistry   spec: 'latest',
+758 silly mapToRegistry   type: 'tag' }
+759 silly mapToRegistry uri https://registry.npmjs.org/express-session
+760 verbose addNameRange registry:https://registry.npmjs.org/express-session not in flight; fetching
+761 verbose get https://registry.npmjs.org/body-parser not expired, no request
+762 silly addNameRange number 2 { name: 'body-parser', range: '>=1.17.2 <2.0.0', hasData: true }
+763 silly addNameRange versions [ 'body-parser',
+763 silly addNameRange   [ '1.0.0',
+763 silly addNameRange     '1.0.1',
+763 silly addNameRange     '1.0.2',
+763 silly addNameRange     '1.1.0',
+763 silly addNameRange     '1.1.1',
+763 silly addNameRange     '1.1.2',
+763 silly addNameRange     '1.2.0',
+763 silly addNameRange     '1.2.1',
+763 silly addNameRange     '1.2.2',
+763 silly addNameRange     '1.3.0',
+763 silly addNameRange     '1.3.1',
+763 silly addNameRange     '1.4.0',
+763 silly addNameRange     '1.4.1',
+763 silly addNameRange     '1.4.2',
+763 silly addNameRange     '1.4.3',
+763 silly addNameRange     '1.5.0',
+763 silly addNameRange     '1.5.1',
+763 silly addNameRange     '1.5.2',
+763 silly addNameRange     '1.6.0',
+763 silly addNameRange     '1.6.1',
+763 silly addNameRange     '1.6.2',
+763 silly addNameRange     '1.6.3',
+763 silly addNameRange     '1.6.4',
+763 silly addNameRange     '1.6.5',
+763 silly addNameRange     '1.6.6',
+763 silly addNameRange     '1.6.7',
+763 silly addNameRange     '1.7.0',
+763 silly addNameRange     '1.8.0',
+763 silly addNameRange     '1.8.1',
+763 silly addNameRange     '1.8.2',
+763 silly addNameRange     '1.8.3',
+763 silly addNameRange     '1.8.4',
+763 silly addNameRange     '1.9.0',
+763 silly addNameRange     '1.9.1',
+763 silly addNameRange     '1.9.2',
+763 silly addNameRange     '1.9.3',
+763 silly addNameRange     '1.10.0',
+763 silly addNameRange     '1.10.1',
+763 silly addNameRange     '1.10.2',
+763 silly addNameRange     '1.11.0',
+763 silly addNameRange     '1.12.0',
+763 silly addNameRange     '1.12.1',
+763 silly addNameRange     '1.12.2',
+763 silly addNameRange     '1.12.3',
+763 silly addNameRange     '1.12.4',
+763 silly addNameRange     '1.13.0',
+763 silly addNameRange     '1.13.1',
+763 silly addNameRange     '1.13.2',
+763 silly addNameRange     '1.13.3',
+763 silly addNameRange     '1.14.0',
+763 silly addNameRange     '1.14.1',
+763 silly addNameRange     '1.14.2',
+763 silly addNameRange     '1.15.0',
+763 silly addNameRange     '1.15.1',
+763 silly addNameRange     '1.15.2',
+763 silly addNameRange     '1.16.0',
+763 silly addNameRange     '1.16.1',
+763 silly addNameRange     '1.17.0',
+763 silly addNameRange     '1.17.1',
+763 silly addNameRange     '1.17.2',
+763 silly addNameRange     '1.18.0',
+763 silly addNameRange     '1.18.1',
+763 silly addNameRange     '1.18.2',
+763 silly addNameRange     '1.18.3' ] ]
+764 silly addNamed body-parser@1.18.3
+765 verbose addNamed "1.18.3" is a plain semver version for body-parser
+766 silly resolveWithNewModule express@4.16.4 checking installable status
+767 silly cache add args [ 'express@^4.16.3', null ]
+768 verbose cache add spec express@^4.16.3
+769 silly cache add parsed spec Result {
+769 silly cache add   raw: 'express@^4.16.3',
+769 silly cache add   scope: null,
+769 silly cache add   escapedName: 'express',
+769 silly cache add   name: 'express',
+769 silly cache add   rawSpec: '^4.16.3',
+769 silly cache add   spec: '>=4.16.3 <5.0.0',
+769 silly cache add   type: 'range' }
+770 silly addNamed express@>=4.16.3 <5.0.0
+771 verbose addNamed ">=4.16.3 <5.0.0" is a valid semver range for express
+772 silly addNameRange { name: 'express', range: '>=4.16.3 <5.0.0', hasData: false }
+773 silly mapToRegistry name express
+774 silly mapToRegistry using default registry
+775 silly mapToRegistry registry https://registry.npmjs.org/
+776 silly mapToRegistry data Result {
+776 silly mapToRegistry   raw: 'express',
+776 silly mapToRegistry   scope: null,
+776 silly mapToRegistry   escapedName: 'express',
+776 silly mapToRegistry   name: 'express',
+776 silly mapToRegistry   rawSpec: '',
+776 silly mapToRegistry   spec: 'latest',
+776 silly mapToRegistry   type: 'tag' }
+777 silly mapToRegistry uri https://registry.npmjs.org/express
+778 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+779 silly resolveWithNewModule moment@2.22.2 checking installable status
+780 silly cache add args [ 'moment@^2.22.2', null ]
+781 verbose cache add spec moment@^2.22.2
+782 silly cache add parsed spec Result {
+782 silly cache add   raw: 'moment@^2.22.2',
+782 silly cache add   scope: null,
+782 silly cache add   escapedName: 'moment',
+782 silly cache add   name: 'moment',
+782 silly cache add   rawSpec: '^2.22.2',
+782 silly cache add   spec: '>=2.22.2 <3.0.0',
+782 silly cache add   type: 'range' }
+783 silly addNamed moment@>=2.22.2 <3.0.0
+784 verbose addNamed ">=2.22.2 <3.0.0" is a valid semver range for moment
+785 silly addNameRange { name: 'moment', range: '>=2.22.2 <3.0.0', hasData: false }
+786 silly mapToRegistry name moment
+787 silly mapToRegistry using default registry
+788 silly mapToRegistry registry https://registry.npmjs.org/
+789 silly mapToRegistry data Result {
+789 silly mapToRegistry   raw: 'moment',
+789 silly mapToRegistry   scope: null,
+789 silly mapToRegistry   escapedName: 'moment',
+789 silly mapToRegistry   name: 'moment',
+789 silly mapToRegistry   rawSpec: '',
+789 silly mapToRegistry   spec: 'latest',
+789 silly mapToRegistry   type: 'tag' }
+790 silly mapToRegistry uri https://registry.npmjs.org/moment
+791 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+792 verbose get https://registry.npmjs.org/connect-mongo not expired, no request
+793 silly addNameRange number 2 { name: 'connect-mongo', range: '>=2.0.1 <3.0.0', hasData: true }
+794 silly addNameRange versions [ 'connect-mongo',
+794 silly addNameRange   [ '0.1.0',
+794 silly addNameRange     '0.1.1',
+794 silly addNameRange     '0.1.2',
+794 silly addNameRange     '0.1.3',
+794 silly addNameRange     '0.1.4',
+794 silly addNameRange     '0.1.5',
+794 silly addNameRange     '0.1.6',
+794 silly addNameRange     '0.1.7',
+794 silly addNameRange     '0.1.8',
+794 silly addNameRange     '0.1.9',
+794 silly addNameRange     '0.2.0',
+794 silly addNameRange     '0.3.0',
+794 silly addNameRange     '0.3.1',
+794 silly addNameRange     '0.3.2',
+794 silly addNameRange     '0.3.3',
+794 silly addNameRange     '0.4.0',
+794 silly addNameRange     '0.4.1',
+794 silly addNameRange     '0.4.2',
+794 silly addNameRange     '0.5.0',
+794 silly addNameRange     '0.5.1',
+794 silly addNameRange     '0.5.2',
+794 silly addNameRange     '0.5.3',
+794 silly addNameRange     '0.6.0',
+794 silly addNameRange     '0.7.0',
+794 silly addNameRange     '0.8.0',
+794 silly addNameRange     '0.8.1',
+794 silly addNameRange     '0.8.2',
+794 silly addNameRange     '1.0.0-beta.1',
+794 silly addNameRange     '1.0.0',
+794 silly addNameRange     '1.0.1',
+794 silly addNameRange     '1.0.2',
+794 silly addNameRange     '1.1.0',
+794 silly addNameRange     '1.2.0',
+794 silly addNameRange     '1.2.1',
+794 silly addNameRange     '1.3.0',
+794 silly addNameRange     '1.3.1',
+794 silly addNameRange     '1.3.2',
+794 silly addNameRange     '2.0.0',
+794 silly addNameRange     '2.0.1' ] ]
+795 silly addNamed connect-mongo@2.0.1
+796 verbose addNamed "2.0.1" is a plain semver version for connect-mongo
+797 silly resolveWithNewModule cookie-parser@1.4.3 checking installable status
+798 silly cache add args [ 'cookie-parser@^1.4.3', null ]
+799 verbose cache add spec cookie-parser@^1.4.3
+800 silly cache add parsed spec Result {
+800 silly cache add   raw: 'cookie-parser@^1.4.3',
+800 silly cache add   scope: null,
+800 silly cache add   escapedName: 'cookie-parser',
+800 silly cache add   name: 'cookie-parser',
+800 silly cache add   rawSpec: '^1.4.3',
+800 silly cache add   spec: '>=1.4.3 <2.0.0',
+800 silly cache add   type: 'range' }
+801 silly addNamed cookie-parser@>=1.4.3 <2.0.0
+802 verbose addNamed ">=1.4.3 <2.0.0" is a valid semver range for cookie-parser
+803 silly addNameRange { name: 'cookie-parser',
+803 silly addNameRange   range: '>=1.4.3 <2.0.0',
+803 silly addNameRange   hasData: false }
+804 silly mapToRegistry name cookie-parser
+805 silly mapToRegistry using default registry
+806 silly mapToRegistry registry https://registry.npmjs.org/
+807 silly mapToRegistry data Result {
+807 silly mapToRegistry   raw: 'cookie-parser',
+807 silly mapToRegistry   scope: null,
+807 silly mapToRegistry   escapedName: 'cookie-parser',
+807 silly mapToRegistry   name: 'cookie-parser',
+807 silly mapToRegistry   rawSpec: '',
+807 silly mapToRegistry   spec: 'latest',
+807 silly mapToRegistry   type: 'tag' }
+808 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+809 verbose addNameRange registry:https://registry.npmjs.org/cookie-parser not in flight; fetching
+810 silly resolveWithNewModule jsonwebtoken@8.3.0 checking installable status
+811 silly cache add args [ 'jsonwebtoken@^8.3.0', null ]
+812 verbose cache add spec jsonwebtoken@^8.3.0
+813 silly cache add parsed spec Result {
+813 silly cache add   raw: 'jsonwebtoken@^8.3.0',
+813 silly cache add   scope: null,
+813 silly cache add   escapedName: 'jsonwebtoken',
+813 silly cache add   name: 'jsonwebtoken',
+813 silly cache add   rawSpec: '^8.3.0',
+813 silly cache add   spec: '>=8.3.0 <9.0.0',
+813 silly cache add   type: 'range' }
+814 silly addNamed jsonwebtoken@>=8.3.0 <9.0.0
+815 verbose addNamed ">=8.3.0 <9.0.0" is a valid semver range for jsonwebtoken
+816 silly addNameRange { name: 'jsonwebtoken', range: '>=8.3.0 <9.0.0', hasData: false }
+817 silly mapToRegistry name jsonwebtoken
+818 silly mapToRegistry using default registry
+819 silly mapToRegistry registry https://registry.npmjs.org/
+820 silly mapToRegistry data Result {
+820 silly mapToRegistry   raw: 'jsonwebtoken',
+820 silly mapToRegistry   scope: null,
+820 silly mapToRegistry   escapedName: 'jsonwebtoken',
+820 silly mapToRegistry   name: 'jsonwebtoken',
+820 silly mapToRegistry   rawSpec: '',
+820 silly mapToRegistry   spec: 'latest',
+820 silly mapToRegistry   type: 'tag' }
+821 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+822 verbose addNameRange registry:https://registry.npmjs.org/jsonwebtoken not in flight; fetching
+823 silly mapToRegistry name connect-mongo
+824 silly mapToRegistry using default registry
+825 silly mapToRegistry registry https://registry.npmjs.org/
+826 silly mapToRegistry data Result {
+826 silly mapToRegistry   raw: 'connect-mongo',
+826 silly mapToRegistry   scope: null,
+826 silly mapToRegistry   escapedName: 'connect-mongo',
+826 silly mapToRegistry   name: 'connect-mongo',
+826 silly mapToRegistry   rawSpec: '',
+826 silly mapToRegistry   spec: 'latest',
+826 silly mapToRegistry   type: 'tag' }
+827 silly mapToRegistry uri https://registry.npmjs.org/connect-mongo
+828 verbose addRemoteTarball https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz not in flight; adding
+829 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz',
+829 verbose addRemoteTarball   '514d649cff1d5d5546c087193245bb54ff5b703b' ]
+830 verbose get https://registry.npmjs.org/mongoose not expired, no request
+831 silly addNameRange number 2 { name: 'mongoose', range: '>=5.2.3 <6.0.0', hasData: true }
+832 silly addNameRange versions [ 'mongoose',
+832 silly addNameRange   [ '0.0.1',
+832 silly addNameRange     '0.0.2',
+832 silly addNameRange     '0.0.3',
+832 silly addNameRange     '0.0.4',
+832 silly addNameRange     '0.0.5',
+832 silly addNameRange     '1.0.0',
+832 silly addNameRange     '1.0.1',
+832 silly addNameRange     '1.0.2',
+832 silly addNameRange     '0.0.6',
+832 silly addNameRange     '1.0.3',
+832 silly addNameRange     '1.0.4',
+832 silly addNameRange     '1.0.5',
+832 silly addNameRange     '1.0.6',
+832 silly addNameRange     '1.0.7',
+832 silly addNameRange     '1.0.8',
+832 silly addNameRange     '1.0.10',
+832 silly addNameRange     '1.0.11',
+832 silly addNameRange     '1.0.12',
+832 silly addNameRange     '1.0.13',
+832 silly addNameRange     '1.0.14',
+832 silly addNameRange     '1.0.15',
+832 silly addNameRange     '1.0.16',
+832 silly addNameRange     '1.1.0',
+832 silly addNameRange     '1.1.1',
+832 silly addNameRange     '1.1.2',
+832 silly addNameRange     '1.1.3',
+832 silly addNameRange     '1.1.4',
+832 silly addNameRange     '1.1.5',
+832 silly addNameRange     '1.1.6',
+832 silly addNameRange     '1.1.7',
+832 silly addNameRange     '1.1.8',
+832 silly addNameRange     '1.1.9',
+832 silly addNameRange     '1.1.10',
+832 silly addNameRange     '1.1.11',
+832 silly addNameRange     '1.1.12',
+832 silly addNameRange     '1.1.13',
+832 silly addNameRange     '1.1.14',
+832 silly addNameRange     '1.1.15',
+832 silly addNameRange     '1.1.16',
+832 silly addNameRange     '1.1.17',
+832 silly addNameRange     '1.1.18',
+832 silly addNameRange     '1.1.19',
+832 silly addNameRange     '1.1.20',
+832 silly addNameRange     '1.1.21',
+832 silly addNameRange     '1.1.22',
+832 silly addNameRange     '1.1.23',
+832 silly addNameRange     '1.1.24',
+832 silly addNameRange     '1.1.25',
+832 silly addNameRange     '1.2.0',
+832 silly addNameRange     '1.3.0',
+832 silly addNameRange     '1.3.1',
+832 silly addNameRange     '1.3.2',
+832 silly addNameRange     '1.3.3',
+832 silly addNameRange     '1.3.4',
+832 silly addNameRange     '1.3.5',
+832 silly addNameRange     '1.3.6',
+832 silly addNameRange     '1.3.7',
+832 silly addNameRange     '1.4.0',
+832 silly addNameRange     '1.5.0',
+832 silly addNameRange     '1.6.0',
+832 silly addNameRange     '1.7.2',
+832 silly addNameRange     '1.7.3',
+832 silly addNameRange     '1.7.4',
+832 silly addNameRange     '1.8.0',
+832 silly addNameRange     '1.8.1',
+832 silly addNameRange     '1.8.2',
+832 silly addNameRange     '1.8.3',
+832 silly addNameRange     '1.8.4',
+832 silly addNameRange     '2.0.0',
+832 silly addNameRange     '2.0.1',
+832 silly addNameRange     '2.0.2',
+832 silly addNameRange     '2.0.3',
+832 silly addNameRange     '2.0.4',
+832 silly addNameRange     '2.1.0',
+832 silly addNameRange     '2.1.1',
+832 silly addNameRange     '2.1.2',
+832 silly addNameRange     '2.1.3',
+832 silly addNameRange     '2.1.4',
+832 silly addNameRange     '2.2.0',
+832 silly addNameRange     '2.2.1',
+832 silly addNameRange     '2.2.2',
+832 silly addNameRange     '2.2.3',
+832 silly addNameRange     '2.2.4',
+832 silly addNameRange     '2.3.0',
+832 silly addNameRange     '2.3.1',
+832 silly addNameRange     '2.3.2',
+832 silly addNameRange     '2.3.3',
+832 silly addNameRange     '2.3.4',
+832 silly addNameRange     '2.3.5',
+832 silly addNameRange     '2.3.6',
+832 silly addNameRange     '2.3.7',
+832 silly addNameRange     '2.3.8',
+832 silly addNameRange     '2.3.9',
+832 silly addNameRange     '2.3.10',
+832 silly addNameRange     '2.3.11',
+832 silly addNameRange     '2.3.12',
+832 silly addNameRange     '2.3.13',
+832 silly addNameRange     '2.4.0',
+832 silly addNameRange     '2.4.1',
+832 silly addNameRange     '2.4.2',
+832 silly addNameRange     ... 374 more items ] ]
+833 silly addNamed mongoose@5.3.1
+834 verbose addNamed "5.3.1" is a plain semver version for mongoose
+835 verbose get https://registry.npmjs.org/passport not expired, no request
+836 silly addNameRange number 2 { name: 'passport', range: '>=0.4.0 <0.5.0', hasData: true }
+837 silly addNameRange versions [ 'passport',
+837 silly addNameRange   [ '0.1.0',
+837 silly addNameRange     '0.1.1',
+837 silly addNameRange     '0.1.2',
+837 silly addNameRange     '0.1.3',
+837 silly addNameRange     '0.1.4',
+837 silly addNameRange     '0.1.5',
+837 silly addNameRange     '0.1.6',
+837 silly addNameRange     '0.1.7',
+837 silly addNameRange     '0.1.8',
+837 silly addNameRange     '0.1.9',
+837 silly addNameRange     '0.1.10',
+837 silly addNameRange     '0.1.11',
+837 silly addNameRange     '0.1.12',
+837 silly addNameRange     '0.1.13',
+837 silly addNameRange     '0.1.14',
+837 silly addNameRange     '0.1.15',
+837 silly addNameRange     '0.1.16',
+837 silly addNameRange     '0.1.17',
+837 silly addNameRange     '0.1.18',
+837 silly addNameRange     '0.2.0',
+837 silly addNameRange     '0.2.1',
+837 silly addNameRange     '0.2.2',
+837 silly addNameRange     '0.3.0',
+837 silly addNameRange     '0.3.1',
+837 silly addNameRange     '0.3.2',
+837 silly addNameRange     '0.4.0' ] ]
+838 silly addNamed passport@0.4.0
+839 verbose addNamed "0.4.0" is a plain semver version for passport
+840 verbose get https://registry.npmjs.org/express-session not expired, no request
+841 silly addNameRange number 2 { name: 'express-session',
+841 silly addNameRange   range: '>=1.15.6 <2.0.0',
+841 silly addNameRange   hasData: true }
+842 silly addNameRange versions [ 'express-session',
+842 silly addNameRange   [ '1.0.0',
+842 silly addNameRange     '1.0.1',
+842 silly addNameRange     '1.0.2',
+842 silly addNameRange     '1.0.3',
+842 silly addNameRange     '1.0.4',
+842 silly addNameRange     '1.1.0',
+842 silly addNameRange     '1.2.0',
+842 silly addNameRange     '1.2.1',
+842 silly addNameRange     '1.3.0',
+842 silly addNameRange     '1.3.1',
+842 silly addNameRange     '1.4.0',
+842 silly addNameRange     '1.5.0',
+842 silly addNameRange     '1.5.1',
+842 silly addNameRange     '1.5.2',
+842 silly addNameRange     '1.6.0',
+842 silly addNameRange     '1.6.1',
+842 silly addNameRange     '1.6.2',
+842 silly addNameRange     '1.6.3',
+842 silly addNameRange     '1.6.4',
+842 silly addNameRange     '1.6.5',
+842 silly addNameRange     '1.7.0',
+842 silly addNameRange     '1.7.1',
+842 silly addNameRange     '1.7.2',
+842 silly addNameRange     '1.7.3',
+842 silly addNameRange     '1.7.4',
+842 silly addNameRange     '1.7.5',
+842 silly addNameRange     '1.7.6',
+842 silly addNameRange     '1.8.0',
+842 silly addNameRange     '1.8.1',
+842 silly addNameRange     '1.8.2',
+842 silly addNameRange     '1.9.0',
+842 silly addNameRange     '1.9.1',
+842 silly addNameRange     '1.9.2',
+842 silly addNameRange     '1.9.3',
+842 silly addNameRange     '1.10.0',
+842 silly addNameRange     '1.10.1',
+842 silly addNameRange     '1.10.2',
+842 silly addNameRange     '1.10.3',
+842 silly addNameRange     '1.10.4',
+842 silly addNameRange     '1.11.0',
+842 silly addNameRange     '1.11.1',
+842 silly addNameRange     '1.11.2',
+842 silly addNameRange     '1.11.3',
+842 silly addNameRange     '1.12.0',
+842 silly addNameRange     '1.12.1',
+842 silly addNameRange     '1.13.0',
+842 silly addNameRange     '1.14.0',
+842 silly addNameRange     '1.14.1',
+842 silly addNameRange     '1.14.2',
+842 silly addNameRange     '1.15.0',
+842 silly addNameRange     '1.15.1',
+842 silly addNameRange     '1.15.2',
+842 silly addNameRange     '1.15.3',
+842 silly addNameRange     '1.15.4',
+842 silly addNameRange     '1.15.5',
+842 silly addNameRange     '1.15.6' ] ]
+843 silly addNamed express-session@1.15.6
+844 verbose addNamed "1.15.6" is a plain semver version for express-session
+845 silly cache afterAdd passport-local@1.0.0
+846 verbose afterAdd /Users/ksures200/.npm/passport-local/1.0.0/package/package.json not in flight; writing
+847 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+848 silly mapToRegistry name mongoose
+849 silly mapToRegistry using default registry
+850 silly mapToRegistry registry https://registry.npmjs.org/
+851 silly mapToRegistry data Result {
+851 silly mapToRegistry   raw: 'mongoose',
+851 silly mapToRegistry   scope: null,
+851 silly mapToRegistry   escapedName: 'mongoose',
+851 silly mapToRegistry   name: 'mongoose',
+851 silly mapToRegistry   rawSpec: '',
+851 silly mapToRegistry   spec: 'latest',
+851 silly mapToRegistry   type: 'tag' }
+852 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+853 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz not in flight; adding
+854 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz',
+854 verbose addRemoteTarball   '52d5bfb67788a2194e5f7a2a5c0d597e4b86fd7a' ]
+855 silly cache afterAdd core-js@2.5.7
+856 verbose afterAdd /Users/ksures200/.npm/core-js/2.5.7/package/package.json not in flight; writing
+857 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+858 silly cache afterAdd uuid@3.3.2
+859 verbose afterAdd /Users/ksures200/.npm/uuid/3.3.2/package/package.json not in flight; writing
+860 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+861 silly cache afterAdd moment-timezone@0.5.23
+862 verbose afterAdd /Users/ksures200/.npm/moment-timezone/0.5.23/package/package.json not in flight; writing
+863 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+864 silly mapToRegistry name express-session
+865 silly mapToRegistry using default registry
+866 silly mapToRegistry registry https://registry.npmjs.org/
+867 silly mapToRegistry data Result {
+867 silly mapToRegistry   raw: 'express-session',
+867 silly mapToRegistry   scope: null,
+867 silly mapToRegistry   escapedName: 'express-session',
+867 silly mapToRegistry   name: 'express-session',
+867 silly mapToRegistry   rawSpec: '',
+867 silly mapToRegistry   spec: 'latest',
+867 silly mapToRegistry   type: 'tag' }
+868 silly mapToRegistry uri https://registry.npmjs.org/express-session
+869 verbose addRemoteTarball https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz not in flight; adding
+870 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz',
+870 verbose addRemoteTarball   '47b4160c88f42ab70fe8a508e31cbff76757ab0a' ]
+871 verbose get https://registry.npmjs.org/moment not expired, no request
+872 silly addNameRange number 2 { name: 'moment', range: '>=2.22.2 <3.0.0', hasData: true }
+873 silly addNameRange versions [ 'moment',
+873 silly addNameRange   [ '1.0.0',
+873 silly addNameRange     '1.0.1',
+873 silly addNameRange     '1.1.0',
+873 silly addNameRange     '1.1.1',
+873 silly addNameRange     '1.2.0',
+873 silly addNameRange     '1.3.0',
+873 silly addNameRange     '1.4.0',
+873 silly addNameRange     '1.5.0',
+873 silly addNameRange     '1.5.1',
+873 silly addNameRange     '1.6.0',
+873 silly addNameRange     '1.6.1',
+873 silly addNameRange     '1.6.2',
+873 silly addNameRange     '1.7.0',
+873 silly addNameRange     '1.7.1',
+873 silly addNameRange     '1.7.2',
+873 silly addNameRange     '2.0.0',
+873 silly addNameRange     '2.1.0',
+873 silly addNameRange     '2.2.1',
+873 silly addNameRange     '2.3.0',
+873 silly addNameRange     '2.3.1',
+873 silly addNameRange     '2.4.0',
+873 silly addNameRange     '2.5.0',
+873 silly addNameRange     '2.5.1',
+873 silly addNameRange     '2.6.0',
+873 silly addNameRange     '2.7.0',
+873 silly addNameRange     '2.8.1',
+873 silly addNameRange     '2.8.2',
+873 silly addNameRange     '2.8.3',
+873 silly addNameRange     '2.8.4',
+873 silly addNameRange     '2.9.0',
+873 silly addNameRange     '2.10.2',
+873 silly addNameRange     '2.10.3',
+873 silly addNameRange     '2.10.5',
+873 silly addNameRange     '2.10.6',
+873 silly addNameRange     '2.11.0',
+873 silly addNameRange     '2.11.1',
+873 silly addNameRange     '2.11.2',
+873 silly addNameRange     '2.12.0',
+873 silly addNameRange     '2.13.0',
+873 silly addNameRange     '2.14.0',
+873 silly addNameRange     '2.14.1',
+873 silly addNameRange     '2.15.0',
+873 silly addNameRange     '2.15.1',
+873 silly addNameRange     '2.15.2',
+873 silly addNameRange     '2.16.0',
+873 silly addNameRange     '2.17.0',
+873 silly addNameRange     '2.17.1',
+873 silly addNameRange     '2.18.0',
+873 silly addNameRange     '2.18.1',
+873 silly addNameRange     '2.19.0',
+873 silly addNameRange     '2.19.1',
+873 silly addNameRange     '2.19.2',
+873 silly addNameRange     '2.19.3',
+873 silly addNameRange     '2.19.4',
+873 silly addNameRange     '2.20.0',
+873 silly addNameRange     '2.20.1',
+873 silly addNameRange     '2.21.0',
+873 silly addNameRange     '2.22.0',
+873 silly addNameRange     '2.22.1',
+873 silly addNameRange     '2.22.2' ] ]
+874 silly addNamed moment@2.22.2
+875 verbose addNamed "2.22.2" is a plain semver version for moment
+876 verbose get https://registry.npmjs.org/express not expired, no request
+877 silly addNameRange number 2 { name: 'express', range: '>=4.16.3 <5.0.0', hasData: true }
+878 silly addNameRange versions [ 'express',
+878 silly addNameRange   [ '0.14.0',
+878 silly addNameRange     '0.14.1',
+878 silly addNameRange     '1.0.0',
+878 silly addNameRange     '1.0.1',
+878 silly addNameRange     '1.0.2',
+878 silly addNameRange     '1.0.3',
+878 silly addNameRange     '1.0.4',
+878 silly addNameRange     '1.0.5',
+878 silly addNameRange     '1.0.6',
+878 silly addNameRange     '1.0.7',
+878 silly addNameRange     '1.0.8',
+878 silly addNameRange     '2.0.0',
+878 silly addNameRange     '2.1.0',
+878 silly addNameRange     '2.1.1',
+878 silly addNameRange     '2.2.0',
+878 silly addNameRange     '2.2.1',
+878 silly addNameRange     '2.2.2',
+878 silly addNameRange     '2.3.0',
+878 silly addNameRange     '2.3.1',
+878 silly addNameRange     '2.3.2',
+878 silly addNameRange     '2.3.3',
+878 silly addNameRange     '2.3.4',
+878 silly addNameRange     '2.3.5',
+878 silly addNameRange     '2.3.6',
+878 silly addNameRange     '2.3.7',
+878 silly addNameRange     '2.3.8',
+878 silly addNameRange     '2.3.9',
+878 silly addNameRange     '2.3.10',
+878 silly addNameRange     '2.3.11',
+878 silly addNameRange     '2.3.12',
+878 silly addNameRange     '2.4.0',
+878 silly addNameRange     '2.4.1',
+878 silly addNameRange     '2.4.2',
+878 silly addNameRange     '2.4.3',
+878 silly addNameRange     '2.4.4',
+878 silly addNameRange     '2.4.5',
+878 silly addNameRange     '2.4.6',
+878 silly addNameRange     '2.4.7',
+878 silly addNameRange     '2.5.0',
+878 silly addNameRange     '2.5.1',
+878 silly addNameRange     '2.5.2',
+878 silly addNameRange     '2.5.3',
+878 silly addNameRange     '2.5.4',
+878 silly addNameRange     '2.5.5',
+878 silly addNameRange     '2.5.6',
+878 silly addNameRange     '2.5.7',
+878 silly addNameRange     '2.5.8',
+878 silly addNameRange     '2.5.9',
+878 silly addNameRange     '2.5.10',
+878 silly addNameRange     '2.5.11',
+878 silly addNameRange     '3.0.0',
+878 silly addNameRange     '3.0.1',
+878 silly addNameRange     '3.0.2',
+878 silly addNameRange     '3.0.3',
+878 silly addNameRange     '3.0.4',
+878 silly addNameRange     '3.0.5',
+878 silly addNameRange     '3.0.6',
+878 silly addNameRange     '3.1.0',
+878 silly addNameRange     '3.1.1',
+878 silly addNameRange     '3.1.2',
+878 silly addNameRange     '3.2.0',
+878 silly addNameRange     '3.2.1',
+878 silly addNameRange     '3.2.2',
+878 silly addNameRange     '3.2.3',
+878 silly addNameRange     '3.2.4',
+878 silly addNameRange     '3.2.5',
+878 silly addNameRange     '3.2.6',
+878 silly addNameRange     '3.3.0',
+878 silly addNameRange     '3.3.1',
+878 silly addNameRange     '3.3.2',
+878 silly addNameRange     '3.3.3',
+878 silly addNameRange     '3.3.4',
+878 silly addNameRange     '3.3.5',
+878 silly addNameRange     '3.3.6',
+878 silly addNameRange     '1.0.0-beta',
+878 silly addNameRange     '1.0.0-beta2',
+878 silly addNameRange     '1.0.0-rc',
+878 silly addNameRange     '1.0.0-rc2',
+878 silly addNameRange     '1.0.0-rc3',
+878 silly addNameRange     '1.0.0-rc4',
+878 silly addNameRange     '2.0.0-beta',
+878 silly addNameRange     '2.0.0-beta2',
+878 silly addNameRange     '2.0.0-beta3',
+878 silly addNameRange     '2.0.0-rc',
+878 silly addNameRange     '2.0.0-rc2',
+878 silly addNameRange     '2.0.0-rc3',
+878 silly addNameRange     '3.0.0-alpha1',
+878 silly addNameRange     '3.0.0-alpha2',
+878 silly addNameRange     '3.0.0-alpha3',
+878 silly addNameRange     '3.0.0-alpha4',
+878 silly addNameRange     '3.0.0-alpha5',
+878 silly addNameRange     '3.0.0-beta1',
+878 silly addNameRange     '3.0.0-beta2',
+878 silly addNameRange     '3.0.0-beta3',
+878 silly addNameRange     '3.0.0-beta4',
+878 silly addNameRange     '3.0.0-beta6',
+878 silly addNameRange     '3.0.0-beta7',
+878 silly addNameRange     '3.0.0-rc1',
+878 silly addNameRange     '3.0.0-rc2',
+878 silly addNameRange     '3.0.0-rc3',
+878 silly addNameRange     ... 161 more items ] ]
+879 silly addNamed express@4.16.4
+880 verbose addNamed "4.16.4" is a plain semver version for express
+881 info retry fetch attempt 1 at 10:38:08 AM
+882 info attempt registry request try #1 at 10:38:08 AM
+883 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+884 verbose get https://registry.npmjs.org/jsonwebtoken not expired, no request
+885 silly addNameRange number 2 { name: 'jsonwebtoken', range: '>=8.3.0 <9.0.0', hasData: true }
+886 silly addNameRange versions [ 'jsonwebtoken',
+886 silly addNameRange   [ '0.1.0',
+886 silly addNameRange     '0.2.0',
+886 silly addNameRange     '0.3.0',
+886 silly addNameRange     '0.4.0',
+886 silly addNameRange     '0.4.1',
+886 silly addNameRange     '1.0.0',
+886 silly addNameRange     '1.0.2',
+886 silly addNameRange     '1.1.0',
+886 silly addNameRange     '1.1.1',
+886 silly addNameRange     '1.1.2',
+886 silly addNameRange     '1.2.0',
+886 silly addNameRange     '1.3.0',
+886 silly addNameRange     '2.0.0',
+886 silly addNameRange     '3.0.0',
+886 silly addNameRange     '3.1.0',
+886 silly addNameRange     '3.1.1',
+886 silly addNameRange     '3.2.0',
+886 silly addNameRange     '3.2.1',
+886 silly addNameRange     '3.2.2',
+886 silly addNameRange     '4.0.0',
+886 silly addNameRange     '4.1.0',
+886 silly addNameRange     '4.2.0',
+886 silly addNameRange     '4.2.1',
+886 silly addNameRange     '4.2.2',
+886 silly addNameRange     '5.0.0',
+886 silly addNameRange     '5.0.1',
+886 silly addNameRange     '5.0.2',
+886 silly addNameRange     '5.0.3',
+886 silly addNameRange     '5.0.4',
+886 silly addNameRange     '5.0.5',
+886 silly addNameRange     '5.1.0',
+886 silly addNameRange     '5.2.0',
+886 silly addNameRange     '5.3.1',
+886 silly addNameRange     '5.4.0',
+886 silly addNameRange     '5.4.1',
+886 silly addNameRange     '5.5.0',
+886 silly addNameRange     '5.5.1',
+886 silly addNameRange     '5.5.2',
+886 silly addNameRange     '5.5.3',
+886 silly addNameRange     '5.5.4',
+886 silly addNameRange     '5.6.0',
+886 silly addNameRange     '5.6.2',
+886 silly addNameRange     '5.7.0',
+886 silly addNameRange     '6.0.0',
+886 silly addNameRange     '6.0.1',
+886 silly addNameRange     '6.1.0',
+886 silly addNameRange     '6.1.1',
+886 silly addNameRange     '6.1.2',
+886 silly addNameRange     '6.2.0',
+886 silly addNameRange     '7.0.0',
+886 silly addNameRange     '7.0.1',
+886 silly addNameRange     '7.1.0',
+886 silly addNameRange     '7.1.1',
+886 silly addNameRange     '7.1.3',
+886 silly addNameRange     '7.1.5',
+886 silly addNameRange     '7.1.6',
+886 silly addNameRange     '7.1.7',
+886 silly addNameRange     '7.1.8',
+886 silly addNameRange     '7.1.9',
+886 silly addNameRange     '7.1.10',
+886 silly addNameRange     '7.2.0',
+886 silly addNameRange     '7.2.1',
+886 silly addNameRange     '7.3.0',
+886 silly addNameRange     '7.4.0',
+886 silly addNameRange     '7.4.1',
+886 silly addNameRange     '7.4.2',
+886 silly addNameRange     '7.4.3',
+886 silly addNameRange     '8.0.0',
+886 silly addNameRange     '8.0.1',
+886 silly addNameRange     '8.1.0',
+886 silly addNameRange     '8.1.1',
+886 silly addNameRange     '8.2.0',
+886 silly addNameRange     '8.2.1',
+886 silly addNameRange     '8.2.2',
+886 silly addNameRange     '8.3.0' ] ]
+887 silly addNamed jsonwebtoken@8.3.0
+888 verbose addNamed "8.3.0" is a plain semver version for jsonwebtoken
+889 verbose get https://registry.npmjs.org/cookie-parser not expired, no request
+890 silly addNameRange number 2 { name: 'cookie-parser', range: '>=1.4.3 <2.0.0', hasData: true }
+891 silly addNameRange versions [ 'cookie-parser',
+891 silly addNameRange   [ '1.0.0',
+891 silly addNameRange     '1.0.1',
+891 silly addNameRange     '1.1.0',
+891 silly addNameRange     '1.2.0',
+891 silly addNameRange     '1.3.0',
+891 silly addNameRange     '1.3.1',
+891 silly addNameRange     '1.3.2',
+891 silly addNameRange     '1.3.3',
+891 silly addNameRange     '1.3.4',
+891 silly addNameRange     '1.3.5',
+891 silly addNameRange     '1.4.0',
+891 silly addNameRange     '1.4.1',
+891 silly addNameRange     '1.4.2',
+891 silly addNameRange     '1.4.3' ] ]
+892 silly addNamed cookie-parser@1.4.3
+893 verbose addNamed "1.4.3" is a plain semver version for cookie-parser
+894 silly cache afterAdd body-parser@1.18.3
+895 verbose afterAdd /Users/ksures200/.npm/body-parser/1.18.3/package/package.json not in flight; writing
+896 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+897 info retry fetch attempt 1 at 10:38:08 AM
+898 info attempt registry request try #1 at 10:38:08 AM
+899 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+900 silly mapToRegistry name cookie-parser
+901 silly mapToRegistry using default registry
+902 silly mapToRegistry registry https://registry.npmjs.org/
+903 silly mapToRegistry data Result {
+903 silly mapToRegistry   raw: 'cookie-parser',
+903 silly mapToRegistry   scope: null,
+903 silly mapToRegistry   escapedName: 'cookie-parser',
+903 silly mapToRegistry   name: 'cookie-parser',
+903 silly mapToRegistry   rawSpec: '',
+903 silly mapToRegistry   spec: 'latest',
+903 silly mapToRegistry   type: 'tag' }
+904 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+905 verbose addRemoteTarball https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz not in flight; adding
+906 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz',
+906 verbose addRemoteTarball   '0fe31fa19d000b95f4aadf1f53fdc2b8a203baa5' ]
+907 info retry fetch attempt 1 at 10:38:08 AM
+908 info attempt registry request try #1 at 10:38:08 AM
+909 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+910 info retry fetch attempt 1 at 10:38:08 AM
+911 info attempt registry request try #1 at 10:38:08 AM
+912 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+913 silly cache afterAdd passport@0.4.0
+914 verbose afterAdd /Users/ksures200/.npm/passport/0.4.0/package/package.json not in flight; writing
+915 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+916 info retry fetch attempt 1 at 10:38:08 AM
+917 info attempt registry request try #1 at 10:38:08 AM
+918 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+919 verbose afterAdd /Users/ksures200/.npm/passport-local/1.0.0/package/package.json written
+920 silly cache afterAdd moment@2.22.2
+921 verbose afterAdd /Users/ksures200/.npm/moment/2.22.2/package/package.json not in flight; writing
+922 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+923 verbose afterAdd /Users/ksures200/.npm/uuid/3.3.2/package/package.json written
+924 silly cache afterAdd jsonwebtoken@8.3.0
+925 verbose afterAdd /Users/ksures200/.npm/jsonwebtoken/8.3.0/package/package.json not in flight; writing
+926 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+927 verbose afterAdd /Users/ksures200/.npm/core-js/2.5.7/package/package.json written
+928 silly cache afterAdd express@4.16.4
+929 verbose afterAdd /Users/ksures200/.npm/express/4.16.4/package/package.json not in flight; writing
+930 verbose correctMkdir /Users/ksures200/.npm correctMkdir not in flight; initializing
+931 verbose afterAdd /Users/ksures200/.npm/moment-timezone/0.5.23/package/package.json written
+932 verbose afterAdd /Users/ksures200/.npm/body-parser/1.18.3/package/package.json written
+933 verbose afterAdd /Users/ksures200/.npm/passport/0.4.0/package/package.json written
+934 verbose afterAdd /Users/ksures200/.npm/moment/2.22.2/package/package.json written
+935 verbose afterAdd /Users/ksures200/.npm/jsonwebtoken/8.3.0/package/package.json written
+936 verbose afterAdd /Users/ksures200/.npm/express/4.16.4/package/package.json written
+937 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+938 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+939 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+940 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+941 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+942 info attempt registry request try #2 at 10:38:18 AM
+943 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+944 info attempt registry request try #2 at 10:38:18 AM
+945 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+946 info attempt registry request try #2 at 10:38:18 AM
+947 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+948 info attempt registry request try #2 at 10:38:18 AM
+949 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+950 info attempt registry request try #2 at 10:38:18 AM
+951 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+952 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+953 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+954 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+955 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+956 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+957 info attempt registry request try #3 at 10:39:18 AM
+958 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+959 info attempt registry request try #3 at 10:39:18 AM
+960 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+961 info attempt registry request try #3 at 10:39:18 AM
+962 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+963 info attempt registry request try #3 at 10:39:18 AM
+964 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+965 info attempt registry request try #3 at 10:39:18 AM
+966 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+967 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+968 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+969 error fetch failed https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+970 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+971 error fetch failed https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+972 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+973 error fetch failed https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+974 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+975 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+976 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+977 info retry fetch attempt 2 at 10:39:28 AM
+978 info attempt registry request try #1 at 10:39:28 AM
+979 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+980 info retry fetch attempt 2 at 10:39:28 AM
+981 info attempt registry request try #1 at 10:39:28 AM
+982 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+983 info retry fetch attempt 2 at 10:39:28 AM
+984 info attempt registry request try #1 at 10:39:28 AM
+985 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+986 info retry fetch attempt 2 at 10:39:28 AM
+987 info attempt registry request try #1 at 10:39:28 AM
+988 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+989 info retry fetch attempt 2 at 10:39:28 AM
+990 info attempt registry request try #1 at 10:39:28 AM
+991 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+992 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+993 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+994 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+995 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+996 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+997 info attempt registry request try #2 at 10:39:38 AM
+998 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+999 info attempt registry request try #2 at 10:39:38 AM
+1000 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1001 info attempt registry request try #2 at 10:39:38 AM
+1002 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1003 info attempt registry request try #2 at 10:39:38 AM
+1004 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1005 info attempt registry request try #2 at 10:39:38 AM
+1006 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1007 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1008 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1009 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1010 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1011 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1012 info attempt registry request try #3 at 10:40:38 AM
+1013 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1014 info attempt registry request try #3 at 10:40:38 AM
+1015 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1016 info attempt registry request try #3 at 10:40:38 AM
+1017 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1018 info attempt registry request try #3 at 10:40:38 AM
+1019 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1020 info attempt registry request try #3 at 10:40:38 AM
+1021 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1022 error fetch failed https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1023 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1024 error fetch failed https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1025 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1026 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1027 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1028 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1029 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1030 error fetch failed https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1031 warn retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1032 info retry fetch attempt 3 at 10:41:38 AM
+1033 info attempt registry request try #1 at 10:41:38 AM
+1034 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1035 info retry fetch attempt 3 at 10:41:38 AM
+1036 info attempt registry request try #1 at 10:41:38 AM
+1037 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1038 info retry fetch attempt 3 at 10:41:38 AM
+1039 info attempt registry request try #1 at 10:41:38 AM
+1040 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1041 info retry fetch attempt 3 at 10:41:38 AM
+1042 info attempt registry request try #1 at 10:41:38 AM
+1043 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1044 info retry fetch attempt 3 at 10:41:38 AM
+1045 info attempt registry request try #1 at 10:41:38 AM
+1046 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1047 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1048 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1049 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1050 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1051 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1052 info attempt registry request try #2 at 10:41:48 AM
+1053 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1054 info attempt registry request try #2 at 10:41:48 AM
+1055 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1056 info attempt registry request try #2 at 10:41:48 AM
+1057 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1058 info attempt registry request try #2 at 10:41:48 AM
+1059 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1060 info attempt registry request try #2 at 10:41:48 AM
+1061 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1062 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1063 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1064 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1065 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1066 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+1067 info attempt registry request try #3 at 10:42:48 AM
+1068 http fetch GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1069 info attempt registry request try #3 at 10:42:48 AM
+1070 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1071 info attempt registry request try #3 at 10:42:48 AM
+1072 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1073 info attempt registry request try #3 at 10:42:48 AM
+1074 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1075 info attempt registry request try #3 at 10:42:48 AM
+1076 http fetch GET https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1077 error fetch failed https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+1078 error fetch failed https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz
+1079 error fetch failed https://registry.npmjs.org/connect-mongo/-/connect-mongo-2.0.1.tgz
+1080 error fetch failed https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz
+1081 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-5.3.1.tgz
+1082 silly rollbackFailedOptional Starting
+1083 silly rollbackFailedOptional Finishing
+1084 silly runTopLevelLifecycles Finishing
+1085 silly install printInstalled
+1086 verbose stack Error: unable to get local issuer certificate
+1086 verbose stack     at Error (native)
+1086 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+1086 verbose stack     at emitNone (events.js:86:13)
+1086 verbose stack     at TLSSocket.emit (events.js:185:7)
+1086 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+1086 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+1087 verbose cwd /Users/ksures200/GIT/personal/labweek2018
+1088 error Darwin 17.4.0
+1089 error argv "/Users/ksures200/.nvm/versions/node/v6.9.5/bin/node" "/Users/ksures200/.nvm/versions/node/v6.9.5/bin/npm" "install"
+1090 error node v6.9.5
+1091 error npm  v3.10.10
+1092 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+1093 error unable to get local issuer certificate
+1094 error If you need help, you may report this error at:
+1094 error     <https://github.com/npm/npm/issues>
+1095 verbose exit [ 1, true ]

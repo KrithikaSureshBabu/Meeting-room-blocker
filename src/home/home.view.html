@@ -1,0 +1,26 @@
+﻿<div class="homePage">
+    <h1 style="text-align: center; font-size: 30px;">Hello {{vm.user.displayName}}!</h1>
+    <p style="text-align: center; font-size: 25px;">Have a great day!</p>
+    <div style="text-align: center; margin-top: 5%;">
+        <button class="btn btn-primary"  ng-click="vm.showCalendar(vm.user)">Get started with Room Finder</button>
+    </div>
+    <p>&nbsp;</p>
+    <!-- There should be a table which shows the list of meetings today -->
+    <div style="text-align: center; margin-bottom: 5%;">
+        <p><a href="javascript:void(0)" ng-click="vm.logout()" class="btn btn-warning">Logout</a></p>
+    </div>    
+</div>
+
+<style>
+    .homePage {
+        border-radius: 2%; 
+        padding-top: 10px;
+        width: 50%; 
+        height:50%;
+        background-color: #cde3e6;
+        position: relative;
+        box-shadow: #333 5px 5px 23px;
+        margin: auto;
+        margin-top: 20%;
+    }
+</style>

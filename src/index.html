@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Room Finder</title>
+    <link rel="stylesheet" href="lib/fullcalendar.css"/>
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/datetimepicker.css"/>
+    <link href="app-content/app.css" rel="stylesheet" />
+    <link rel="icon" href="lib/comcasticon.png">
+</head>
+<body style="background-color:#455a64; position:relative" ng-cloak="">
+    <div class="loading" loading-spinner>Loading....</div>
+        <div class="container">
+            <div>
+                <div style="width: 59.5%; top: 5%; position: fixed;" ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+                <div ng-view></div>
+            </div>
+        </div>
+
+    <script src="lib/moment.js"></script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/angular-cookies.min.js"></script>
+    <script src="lib/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="lib/datetimepicker.js"></script>
+    <script src="lib/datetimepicker.templates.js"></script>
+    <script src="lib/calendar.js"></script>
+    <script src="lib/fullcalendar.js"></script>
+    <script src="lib/gcal.js"></script>
+
+    <script src="app.js"></script>
+    <script src="app-services/authentication.service.js"></script>
+    <script src="app-services/flash.service.js"></script>
+
+    <!-- Real user service that uses an api -->
+    <script src="app-services/user.service.js"></script>
+
+    <script src="home/home.controller.js"></script>
+    <script src="login/loading.js"></script>
+    <script src="login/login.controller.js"></script>
+    <script src="calendar/calendar.controller.js"></script>
+</body>
+</html>

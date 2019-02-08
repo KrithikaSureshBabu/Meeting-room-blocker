@@ -1,0 +1,108 @@
+﻿<div class="calendarPage">
+    <p style="font-size: 30px; text-align: center;">Room Status</p>
+    <div ng-cloak="">
+        <div style="font-size: 18px; margin-bottom: 2%; text-align: center;">
+            <label for="roomSelected">Select meeting room</label>
+            <select style="padding: 5px; border-radius: 5px; outline: none; border: 2px solid #d1f1c4; color: #777;" name="roomSelected"
+                id="roomSelected" ng-model="vm.selectedRoom" ng-change="vm.selectRoom(v)">
+                <option value="" selected="">Select</option>
+                <option ng-repeat="list in vm.roomLists" value="{{list._id}}">{{list.name}}</option>
+            </select>
+        </div>
+    
+        <div ng-if="vm.selectedRoom" style="text-align: center; font-size: 20px;">
+            <span>Selected Room {{vm.selectedRoomObj.name}} have capacity of {{vm.selectedRoomObj.capacity}} members</span>
+        </div>
+    
+        <div ng-if="vm.selectedRoom" style="margin-top:50px;">
+            <uib-accordion close-others="oneAtATime">
+                <div uib-accordion-group class="panel-default" is-open="vm.status.isCustomHeaderOpen">
+                    <uib-accordion-heading>
+                        Add new Event!
+                        <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': vm.status.isCustomHeaderOpen, 'glyphicon-chevron-right': !vm.status.isCustomHeaderOpen}"></i>
+                    </uib-accordion-heading>
+                    <div class="add-form">
+                        <form name="form" role="form">
+                            <div>
+                                <div class="form-element">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" disabled ng-model="vm.addNewEvent.name" ng-required="required">
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <div class="form-element">
+                                    <label for="title">Subject</label>
+                                    <input type="text" id="title" name="title" ng-model="vm.addNewEvent.title" ng-required="required">
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <div class="form-element">
+                                    <label for="description">Description</label>
+                                    <input type="text" id="description" name="description" ng-model="vm.addNewEvent.description" ng-required="required">
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <div style="position:relative;">
+                                    <div class="btn-group" uib-dropdown is-open="vm.status.isOpenFrom">
+                                        <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+                                            From Time
+                                            <span class="caret"></span>
+                                        </button>
+                                        <div style="position: relative; left: 24%; z-index: 9999;" class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                            <datetimepicker data-ng-model="vm.addNewEvent.fromDate" data-on-set-time="vm.onTimeSet(newDate, oldDate)"
+                                                data-datetimepicker-config="{ renderOn: 'end-date-changed' }"
+                                                data-on-set-time="vm.startDateOnSetTime()"
+                                                data-before-render="vm.startDateBeforeRender($dates)"></datetimepicker>
+                                        </div>
+                                    </div>
+                                    <input name="fromDate" ng-required="required" style="position: absolute; left: 20%; width: 70%;" ng-show="vm.addNewEvent.fromDate" type="text" disabled ng-model="vm.addNewEvent.fromDate">
+                                </div>
+                                <div style="margin-top:10px;position:relative;">
+                                    <div class="btn-group" uib-dropdown is-open="vm.status.isOpenTo">
+                                        <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+                                            To Time
+                                            <span class="caret"></span>
+                                        </button>
+                                        <div style="position: relative; left: 30%; z-index: 9999;" class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                            <datetimepicker data-ng-model="vm.addNewEvent.toDate" data-on-set-time="vm.onTimeSet(newDate, oldDate)"
+                                                data-datetimepicker-config="{ renderOn: 'start-date-changed' }"
+                                                data-on-set-time="vm.endDateOnSetTime()"
+                                                data-before-render="vm.endDateBeforeRender($view, $dates, $leftDate, $upDate, $rightDate)"></datetimepicker>
+                                        </div>
+                                    </div>
+                                    <input name="toDate" ng-required="required" style="position: absolute; left: 20%; width: 70%;" ng-show="vm.addNewEvent.toDate" type="text" disabled ng-model="vm.addNewEvent.toDate">
+                                </div>
+        
+                                <div style="margin-top:15px; text-align: center;">
+                                    <button class="btn btn-primary" ng-click="vm.addEvent()">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </uib-accordion>
+            <div class="col-md-8">
+                <div id="calendar" ui-calendar="vm.uiConfig.calendar" ng-model="vm.eventSources" calendar="myCalendar"></div>
+            </div>
+            <div class="col-md-4">
+                <div ng-show="vm.SelectedEvent" class="alert alert-success" style="margin-top:50px">
+                    <h3 style="margin-top:0px;font-stretch: condensed;"> Selected Event:</h3>
+                    <h2 style="margin-top: 0px;color:#0e79a9">{{vm.SelectedEvent.title}}</h2>
+                    <h4 style="color:#455a64;">{{vm.SelectedEvent.description}}</h4>
+                    <p style="color:#455a64;">By : <b>{{vm.SelectedEvent.name}}</b></p>
+                    <p style="color:#455a64;">Time : <b>{{vm.SelectedEvent.start.format('HH:mma')}} - {{vm.SelectedEvent.end.format('HH:mma')}}</b></p>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .calendarPage {
+        border-radius: 2%; 
+        padding: 3% 3%; 
+        background-color: #cde3e6;
+        position: relative;
+        margin: auto 0%;
+        margin-top: 10%;
+        box-shadow: #333 5px 5px 23px;
+    }
+</style>
